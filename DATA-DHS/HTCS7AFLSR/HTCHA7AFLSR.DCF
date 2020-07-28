@@ -1,0 +1,87 @@
+﻿[Dictionary]
+Version=CSPro 6.3
+Label=HTCHA7AFLSR
+Name=HTCHA7AFLSR_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Absolute
+ZeroFill=No
+DecimalChar=Yes
+
+[Languages]
+
+[Level]
+Label=DQR
+Name=DQR
+
+[IdItems]
+
+[Item]
+Label=Facility identification
+Name=INV_ID
+Start=1
+Len=5
+
+[Item]
+Label=Line number
+Name=SF32LINE
+Start=6
+Len=2
+
+[Record]
+Label=List of multiple community health agents
+Name=REC32
+RecordTypeValue=''
+RecordLen=14
+
+[Item]
+Label=Sex
+Name=SF3203
+Start=8
+Len=1
+
+[ValueSet]
+Label=Sex
+Name=SF3203_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Education level
+Name=SF3204
+Start=9
+Len=1
+
+[ValueSet]
+Label=Education level
+Name=SF3204_VS1
+Value=1;Primary
+Value=2;Secondary
+Value=3;Higher
+Value=9;Not available
+
+[Item]
+Label=Agent type
+Name=SF3205
+Start=10
+Len=1
+
+[ValueSet]
+Label=Agent type
+Name=SF3205_VS1
+Value=1;Health worker (ASC)
+Value=2;Multipurpose community health worker (ASCP)
+Value=3;Supervisor
+
+[Item]
+Label=Year started to work
+Name=SF3208
+Start=11
+Len=4
+
+[ValueSet]
+Label=Year started to work
+Name=SF3208_VS1
+Value=1960:2018
+Value=9998;Don't know
+Value=9999;Not available

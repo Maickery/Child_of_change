@@ -1,0 +1,2047 @@
+                                                  HTFP7AFLSP                                                  
+                                               HTFP7AFLSP_DICT                                                
+
+                                       HTFP7AFLSP.DCF                                                         
+                                     Last Modified:  5/3/2019  7:58:11 PM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+INVENTORY                     Inventory questionnaire                                                         
+  RECORD1                       RECORD1                                                      FP  Yes    1  488
+Level: Inventory questionnaire                         Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+FACIL             (id) Facility identification                            1    5    N    I    1    0   No   No
+PROVNO            (id) Provider serial number                             6    2    N    I    1    0   No   No
+CLTYPE            (id) Client type                                        8    2   AN    I    1    0   No   No
+                               AN  ANC client
+                               FP  Family planning client
+                               SC  Sick child client
+CLNO              (id) Client number                                     10    3    N    I    1    0   No   No
+                               1:347  
+                         (record type)                                   13    2   AN    I    1    0   No   No
+CPROVCAT               Provider category                                 15    2    N    I    1    0   No   No
+  (CPROVCAT_FRA)         Qualification                                  
+                               1   Médecin géneraliste
+                               2   Médecin specialiste
+                               3   Technicien de laboratoire
+                               4   Auxiliaire de laboratoire (y compris aide)
+                               5   Technicien de radiologie
+                               6   Technicien en imagerie medicale
+                               7   Hygienist dentaire
+                               8   Infirmier(e)
+                               9   Infirmier(e) specialiste
+                               10  Auxiliaire infirmier(e)
+                               11  Sage femme
+                               12  Pharmacien
+                               13  Auxiliaire en pharmacie
+                               14  Autres agents de santé communautaire
+                               96  Autre (specifier)
+  (CPROVCAT_VS1)         Provider category                              
+                               1   General medical doctor
+                               2   Specialist medical doctor
+                               3   Lab technician
+                               4   Auxiliary lab technician
+                               5   Radiology technician
+                               6   Technician in medical images
+                               7   Dental hygienist
+                               8   Nurse
+                               9   Specialist nurse
+                               10  Auxiliary nurse
+                               11  Midwife
+                               12  Pharmacist
+                               13  Auxiliary pharmacist
+                               14  Other community health workers
+                               96  Other
+CPROVSEX               Provider sex                                      17    1    N    I    1    0   No   No
+  (CPROVSEX_FRA)         Sexe du prestataire                            
+                               1  Masculin
+                               2  Féminin
+  (CPROVSEX_VS1)         Provider sex                                   
+                               1  Male
+                               2  Female
+CDAY                   Client day                                        18    2    N    I    1    0   No   No
+  (CDAY_FRA)             Client jour                                    
+                               1:31  
+  (CDAY_VS1)             Client day                                     
+                               1:31  
+CMONTH                 Client month                                      20    2    N    I    1    0   No   No
+  (CMONTH_FRA)           Client mois                                    
+                               1   Janvier
+                               2   Février
+                               3   Mars
+                               4   Avril
+                               5   Mai
+                               6   Juin
+                               7   Juillet
+                               8   Août
+                               9   Septembre
+                               10  Octobre
+                               11  Novembre
+                               12  Décembre
+  (CMONTH_VS1)           Client month                                   
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+CYEAR                  Client year                                       22    4    N    I    1    0   No   No
+  (CYEAR_FRA)            Client année                                   
+                               2017:2018  
+  (CYEAR_VS1)            Client year                                    
+                               2017:2018  
+OINTV                  Observer code                                     26    4    N    I    1    0   No   No
+  (OINTV_FRA)            Code du observateur                            
+                               1000  
+                               1001  
+                               1002  
+                               1003  
+                               1004  
+                               1100  
+                               1101  
+                               1102  
+                               1103  
+                               1104  
+                               1200  
+                               1201  
+                               1202  
+                               1203  
+                               1204  
+                               1205  
+                               1300  
+                               1301  
+                               1302  
+                               1303  
+                               1304  
+                               1305  
+                               1400  
+                               1401  
+                               1402  
+                               1403  
+                               1404  
+                               1405  
+                               1500  
+                               1501  
+                               1502  
+                               1503  
+                               1504  
+                               1600  
+                               1601  
+                               1602  
+                               1603  
+                               1604  
+                               1700  
+                               1701  
+                               1702  
+                               1703  
+                               1704  
+                               1800  
+                               1801  
+                               1802  
+                               1803  
+                               1804  
+                               1900  
+                               1901  
+                               1902  
+                               1903  
+                               1904  
+                               2000  
+                               2001  
+                               2002  
+                               2003  
+                               2004  
+                               2100  
+                               2101  
+                               2102  
+                               2103  
+                               2104  
+                               2200  
+                               2201  
+                               2202  
+                               2203  
+                               2204  
+                               2300  
+                               2301  
+                               2302  
+                               2303  
+                               2304  
+                               2400  
+                               2401  
+                               2402  
+                               2403  
+                               2404  
+  (OINTV_VS1)            Observer code                                  
+                               1000  
+                               1001  
+                               1002  
+                               1003  
+                               1004  
+                               1100  
+                               1101  
+                               1102  
+                               1103  
+                               1104  
+                               1200  
+                               1201  
+                               1202  
+                               1203  
+                               1204  
+                               1300  
+                               1301  
+                               1302  
+                               1303  
+                               1304  
+                               1400  
+                               1401  
+                               1402  
+                               1403  
+                               1404  
+                               1500  
+                               1501  
+                               1502  
+                               1503  
+                               1504  
+                               1600  
+                               1601  
+                               1602  
+                               1603  
+                               1604  
+                               1700  
+                               1701  
+                               1702  
+                               1703  
+                               1704  
+                               1800  
+                               1801  
+                               1802  
+                               1803  
+                               1804  
+                               1900  
+                               1901  
+                               1902  
+                               1903  
+                               1904  
+                               2000  
+                               2001  
+                               2002  
+                               2003  
+                               2004  
+                               2100  
+                               2101  
+                               2102  
+                               2103  
+                               2104  
+                               2200  
+                               2201  
+                               2202  
+                               2203  
+                               2204  
+                               2300  
+                               2301  
+                               2302  
+                               2303  
+                               2304  
+                               2400  
+                               2401  
+                               2402  
+                               2403  
+                               2404  
+C100                   Provider agreement                                30    1    N    I    1    0   No   No
+  (C100_FRA)             Permission du prestataire                      
+                               1  Oui
+                               2  Non
+  (C100_VS1)             Provider agreement                             
+                               1  Yes
+                               2  No
+C101                   Client agreement                                  31    1    N    I    1    0   No   No
+  (C101_FRA)             Permission de la cliente                       
+                               1  Oui
+                               2  Non
+  (C101_VS1)             Client agreement                               
+                               1  Yes
+                               2  No
+C102H                  Hour begin                                        32    2    N    I    1    0   No   No
+  (C102H_FRA)            Hour begin                                     
+                               5:23  
+  (C102H_VS1)            Hour begin                                     
+                               5:23  
+C102M                  Minute begin                                      34    2    N    I    1    0   No   No
+  (C102M_FRA)            Minute begin                                   
+                               0:59  
+  (C102M_VS1)            Minute begin                                   
+                               0:59  
+C103                   First observation for this provider of this typ   36    1    N    I    1    0   No   No
+  (C103_FRA)             Ce-est la première observation pour ce prestata
+                               1  Oui, la première observation pour ce prestataire
+                               2  Non, ce n'est pas la première observation pour ce prestataire
+  (C103_VS1)             First observation for this provider of this typ
+                               1  Yes, first observation of this type of client for this provider
+                               2  No, not first of this type for this provider
+OINS1                  instruction-1                                     37    1    N    I    1    0   No   No
+  (OINS1_FRA)            instruction-1                                  
+                               1  Entrer les données d'observation de questionnaire papier
+                               2  Allez a l'interview des clientes à la sortie
+  (OINS1_VS1)            instruction-1                                  
+                               1  Enter Observation data from paper questionnaire
+                               2  Goto Exit Interview
+OINS2                  instruction-2                                     38    1    N    I    1    0   No   No
+CLIENTWT               Client weight                                     39    8    N    I    1    0   No   No
+OF104                  Sex of client                                     47    1    N    I    1    0   No   No
+  (OF104_FRA)            Le sexe de la cliente (du client)              
+                               1  Masculin
+                               2  Féminin
+  (OF104_VS1)            Sex of client                                  
+                               1  Male
+                               2  Female
+OF105                  Client history (female clients only)              48    5   AN    I    1    0   No   No
+  (OF105_FRA)            Histoire de la cliente (Pour les femmes seuleme
+                               A      Date de la dernière naissance ou âge de l'enfant le plus jeune
+                               B      Date des dernières règles (pour savoir si enceinte actuellement)
+                               C      Statut d'allaitement
+                               D      Régularité du cycle menstruel
+                               Y      Aucun
+                               ?      Manquant
+  (OF105_VS1)            Client history (female clients only)           
+                               A      Last delivery date or age of youngest child
+                               B      Last menstrual period (assess if currently pregnant)
+                               C      Breastfeeding status
+                               D      Regularity of menstrual cycle
+                               Y      None of the above
+                               ?      Missing
+OF106                  Client history (all clients)                      53    5   AN    I    1    0   No   No
+  (OF106_FRA)            Histoire du client/de la cliente (tous les pati
+                               A      Age de la cliente (du client)
+                               B      Nombre d'enfants vivants
+                               C      Désire un enfant ou plus d'enfants
+                               D      Délai désiré pour une naissance ou un prochain enfant
+                               Y      Aucun
+                               ?      Manquant
+  (OF106_VS1)            Client history (all clients)                   
+                               A      Age of client
+                               B      Number of living children
+                               C      Desire for a child or more children
+                               D      Delay desired timing for birth of next child
+                               Y      None of the above
+                               ?      Missing
+OF107                  Physical exam                                     58    7   AN    I    1    0   No   No
+  (OF107_FRA)            Examen Physique                                
+                               A        Prendre la pression sanguine du/de la client/cliente
+                               B        Peser le/la client/cliente
+                               C        Interroger le/la client/cliente au sujet du tabagisme
+                               D        Interroger le/la client/cliente au sujet des symptômes relatifs aux IS
+                               E        Interroger le/la client/cliente au sujet des maladies chroniques (mala
+                               F        Interroger le/la client/cliente au sujet des medicaments qu'il/elle es
+                               Y        Aucun
+                               ?        Manquant
+  (OF107_VS1)            Physical exam                                  
+                               A        Took client's blood pressure
+                               B        Weighed the client
+                               C        Asked client about smoking habits
+                               D        Asked client about symptoms of STIs (abnormal vaginal/ urethral discha
+                               E        Asked client about chronic illnesses (heart disease, diabetes, hyperte
+                               F        Asked client about the medications she is taking
+                               Y        None of the above
+                               ?        Missing
+OF108                  Partners & STIs                                   65    6   AN    I    1    0   No   No
+  (OF108_FRA)            Partenaire et IST                              
+                               A       De l'attitude du partenaire envers la planification familiale
+                               B       Du statut du partenaire (nombre de partenaires de la cliente ou de son 
+                               C       Du risque des IST
+                               D       De l'utilisation des condoms pour prévenir les IST
+                               E       De l'utilisation des condoms seuls ou avec une autre méthode pour essay
+                               Y       Aucun
+                               ?       Manquant
+  (OF108_VS1)            Partners & STIs                                
+                               A       Partner's attitude toward family planning (in favor, against)
+                               B       Partner status (number of client's or partner's sexual partners
+                               C       Client's perceived risk of STIs
+                               D       Use of condoms to prevent STIs
+                               E       Using condoms along with another method (dual method) to prevent both p
+                               Y       None of the above
+                               ?       Missing
+OF109                  Questions & concerns                              71    3   AN    I    1    0   No   No
+  (OF109_FRA)            Questions/preocupations                        
+                               A    Interroge le/la client/cliente au sujet de questions ou de soucis concerna
+                               B    Le/la client/cliente a dit qu'elle a eu des soucis, ou a posé des question
+                               Y    Aucun
+                               ?    Manquant
+  (OF109_VS1)            Questions & concerns                           
+                               A    Provider asked client if had questions/concerns about current method
+                               B    Client expressed concerns about method or asked questions about method, in
+                               Y    None of the above
+                               ?    Missing
+OF110                  Privacy/ confidentiality                          74    4   AN    I    1    0   No   No
+  (OF110_FRA)            Confidentialite                                
+                               A     Assure l'intimité visuelle
+                               B     Assure l'intimité auditive
+                               C     Assure le/la client/cliente oralement de la confidentialité
+                               Y     Aucun
+                               ?     Manquant
+  (OF110_VS1)            Privacy/ confidentiality                       
+                               A     Ensured visual privacy
+                               B     Ensured auditory privacy
+                               C     Assured client orally of confidentiality
+                               Y     None of the above
+                               ?     Missing
+OF111A                 Methods prescribed                                78   17   AN    I    1    0   No   No
+  (OF111A_FRA)           Methodes prescrites                            
+                               A                  Pilule combinée
+                               B                  Pilule orale progest. seul
+                               C                  Pilule orale (type non specifie)
+                               D                  Injectable (mensuelement)
+                               E                  Injectable a base de progestorone seule (pour 2 ou 3 mois)
+                               F                  Condom masculin
+                               G                  Condom féminin
+                               H                  DIU
+                               I                  Implant
+                               J                  Pilule du lendemain
+                               K                  Methode du collier
+                               L                  Conseil sur l'abstinence periodique
+                               M                  Vasectomie (sterilization masculine)
+                               N                  Sterilisation feminine
+                               O                  Methode de l'allaitement maternel et de l'amenorhee (MAMA)
+                               X                  Autre (ex: spermicide, diaphragme)
+                               Y                  Pas de methode
+                               ?                  Manquant
+  (OF111A_VS1)           Methods prescribed                             
+                               A                  Combined oral pill
+                               B                  Progestin-only oral pill
+                               C                  Oral pill (type unspecified)
+                               D                  Injectable (monthly)
+                               E                  Progestin-only injectable (2 or 3 monthly)
+                               F                  Male condom
+                               G                  Female condom
+                               H                  IUCD
+                               I                  Implant
+                               J                  Emergency contraception
+                               K                  Cycle beads for standard days method (SDM)
+                               L                  Counseling on periodic abstinence (rhythm)
+                               M                  Vasectomy (male sterilization)
+                               N                  Tubal ligation (female sterilization)
+                               O                  Lactational amenorhea (LAM)
+                               X                  Other (spermicide, diaphragm, etc)
+                               Y                  No method
+                               ?                  Missing
+OF111B                 Methods provided in facility                      95   17   AN    I    1    0   No   No
+  (OF111B_FRA)           Methodes fournies (donné)                      
+                               A                  Pilule combinée
+                               B                  Pilule orale progest. seul
+                               C                  Pilule orale (type non specifie)
+                               D                  Pilule combinée injectable (mensuelement)
+                               E                  Injectable a base de progestorone seule (pour 2 ou 3 mois)
+                               F                  Condom masculin
+                               G                  Condom féminin
+                               H                  DIU
+                               I                  Implant
+                               J                  Pilule du lendemain
+                               K                  Méthode du collier
+                               L                  Conseil sur l'abstinence periodique
+                               M                  Vasectomie (sterilization masculine)
+                               N                  Sterilisation feminine
+                               O                  Methode de l'allaitement maternel et de l'amenorhee (MAMA)
+                               X                  Autre (ex: spermicide, diaphragme)
+                               Y                  Pas de methode
+                               ?                  Manquant
+  (OF111B_VS2)           Methods provided in facility                   
+                               A                  Combined oral pill
+                               B                  Progestin-only oral pill
+                               C                  Oral pill (type unspecified)
+                               D                  Combined injectable (monthly)
+                               E                  Progestin-only injectable (2 or 3 monthly)
+                               F                  Male condom
+                               G                  Female condom
+                               H                  IUCD
+                               I                  Implant
+                               J                  Emergency contraception
+                               K                  Cycle beads for standard days method (SDM)
+                               L                  Counseling on periodic abstinence (rhythm)
+                               M                  Vasectomy (male sterilization)
+                               N                  Tubal ligation (female sterilization)
+                               O                  Lactational amenorhea (LAM)
+                               X                  Other (spermicide, diaphragm, etc.)
+                               Y                  No method
+                               ?                  Missing
+OF113                  Questions for pills/injections                   112    7   AN    I    1    0   No   No
+  (OF113_FRA)            Pilule ou injectables                          
+                               A        Prise (de la pilule quotidiennement; et de l'injection chaque mois our
+                               B        Le changement qui peut se produire avec les règles (diminution du flux
+                               C        Les effets secondaires qui peuvent se produire au début (comme la naus
+                               D        Que faire en cas d'oubli de la pilule ou de l'injection au moment indi
+                               E        La méthode ne protège pas contre les IST et le VIH
+                               F        Doit retourner à l'institution quand les effets secondaires apparaisse
+                               Y        Aucun
+                               ?        Manquant
+  (OF113_VS1)            Questions for pills/injections                 
+                               A        When to take pill (daily, injection either every month or every 2-3 mo
+                               B        Changes that may occur with menstruation (increased flow or amenorrhea
+                               C        Initial side effects that may occur (nausea, weight gain, breast tende
+                               D        What to do if forgets pill or does not get injection on time
+                               E        Method does not protect against STIs/HIV
+                               F        Should return to clinic if side effects appear or persist
+                               Y        None of the above
+                               ?        Missing
+OF115                  Questions for condoms                            119    6   AN    I    1    0   No   No
+  (OF115_FRA)            Condom                                         
+                               A       La non utilisation si la cliente est allergique au latex
+                               B       Ne peut être employé qu'une seule fois
+                               C       Les lubrifiants qui peuvent être utilisés (hydrosoluble seulement pour 
+                               D       Son utilisation comme protection si la cliente craint l'échec avec une 
+                               E       De la double protection (de la grossesse et contre les IST)
+                               Y       Aucun
+                               ?       Manquant
+  (OF115_VS1)            Questions for condoms                          
+                               A       Client cannot use if allergic to latex
+                               B       Each condom can be used only one time
+                               C       Some lubricants may be used (male condom - water soluble only, female c
+                               D       Can be used a backup method if client fears other method will fail
+                               E       Dual protection (from pregnancy and against STIs/HIV
+                               Y       None of the above
+                               ?       Missing
+OF117                  Questions for IUDs                               125    7   AN    I    1    0   No   No
+  (OF117_FRA)            Dispositif intrauterin/sterilet (DIU)          
+                               A        Efficace pendant 5 à 10 années
+                               B        Doit retourner à la formation dans 3-6 semaines après l'insertion ou a
+                               C        Des effets secondaires courants qui peuvent se produire (saignement in
+                               D        Doit retourner à l'institution sanitaire si les effets secondaires per
+                               E        Doit regulièrement verifiez la corde après chaque menstruation
+                               F        La méthode ne protège pas contre les IST et le VIH
+                               Y        Aucun
+                               ?        Manquant
+  (OF117_VS1)            Questions for IUDs                             
+                               A        Good for up to 5 or 10 years
+                               B        Should return to clinic 3-6 weeks after insertion or after first mense
+                               C        Common side effects that may occur (heavy bleeding for first few month
+                               D        Should return to clinic if side effects continue
+                               E        User should regularly check strings after each menstruation
+                               F        Method does not protect against STIs/HIV
+                               Y        None of the above
+                               ?        Missing
+OF119                  Questions for Implants                           132    6   AN    I    1    0   No   No
+  (OF119_FRA)            Implant                                        
+                               A       Efficace pendant 3-5 années
+                               B       Changement qui peut se produire avec la menstruation (saignement irrégu
+                               C       Des effets secondaires qui peuvent se produire au début (nausée, gain d
+                               D       Doit retourner à la structure sanitaire si les effets secondaires persi
+                               E       La méthode ne protège pas contre les IST et le VIH
+                               Y       Aucun
+                               ?       Manquant
+  (OF119_VS1)            Questions for Implants                         
+                               A       Good for 3-5 years
+                               B       Menstrual changes that may occur (irregular bleeding, decreased flow, s
+                               C       Initial side effects that may occur (nausea, weight gain, breast tender
+                               D       Should return to clinic if side effects continue
+                               E       Method does not protect against STIs/HIV
+                               Y       None of the above
+                               ?       Missing
+OF121                  Questions for emergency contraception            138    4   AN    I    1    0   No   No
+  (OF121_FRA)            Rhythme ou abstinence periodique               
+                               A     Comment identifier la période fertile d'une femme
+                               B     Ne pas avoir de rapports pendant la période fertile de la femme sans méth
+                               C     La méthode ne protège pas contre les IST et le VIH
+                               Y     Aucun
+                               ?     Manquant
+  (OF121_VS1)            Questions for emergency contraception          
+                               A     How to identify a woman's fertile period
+                               B     No intercourse during woman's fertile period without alternative method (
+                               C     Method does not protect against STIs/HIV
+                               Y     None of the above
+                               ?     Missing
+OF123                  Questions for PA or SDM                          142    6   AN    I    1    0   No   No
+  (OF123_FRA)            MAMA                                           
+                               A       Du faible risque minime de grossesse peu de temps avant la reprise de l
+                               B       Doit allaiter de manière exclusive ou presque exclusive
+                               C       Inéfficace après le retour des règles
+                               D       L'enfant doit avoir moins de 6 mois
+                               E       La méthode ne protége pas contre les ISTs et le VIH
+                               Y       Aucun
+                               ?       Manquant
+  (OF123_VS1)            Questions for PA or SDM                        
+                               A       Low minimal risk of pregnancy shortly before menstruation resumes
+                               B       Must be exclusively (or near-exclusively) breastfeeding
+                               C       Not effective after menstruation begins again
+                               D       Infant must be less than 6 months of age
+                               F       Method does not protect against STIs/HIV
+                               Y       None of the above
+                               ?       Missing
+OF125                  Questions for vasectomy                          148    7   AN    I    1    0   No   No
+  (OF125_FRA)            Vasectomie                                     
+                               A        La partenaire est protégée contre la grossesse après 3 mois ou 30 éjac
+                               B        Utilisation d'une méthode de relais pour les 3 mois suivent l'opératio
+                               C        Méthode qui est prévue pour être permanente; avec un faible risque d'é
+                               D        Signes d'alarme qui peuvent se produire après l'opération (douleur int
+                               E        Doit retourner à l'institution en cas de signes
+                               F        La méthode ne protége pas contre les IST et le VIH
+                               Y        Aucun
+                               ?        Manquant
+  (OF125_VS1)            Questions for vasectomy                        
+                               A        Partner is protected from pregnancy after 3 months or 30 ejaculations
+                               B        Use a back-up method for the next 3 months
+                               C        Procedure intended to be permanent, slight risk of failure
+                               D        Warning signs that may occur after surgery (severe pain, tenderness, b
+                               E        Should return to clinic if experience warning signs
+                               F        Method does not protect against STIs/HIV
+                               Y        None of the above
+                               ?        Missing
+OF127                  Questions for female sterilization               155    6   AN    I    1    0   No   No
+  (OF127_FRA)            Stérilisation féminine                         
+                               A       Protège contre la grossesse immédiatement
+                               B       Méthode qui est prévue pour être permanente; avec un faible risque d'éc
+                               C       Signes d'alarme qui peuvent se produire après l'opération (douleur inte
+                               D       Doit retourner à l'institution à l'apparition de ces signes
+                               E       La méthode ne protège pas contre les ISTs et le VIH
+                               Y       Aucun
+                               ?       Manquant
+  (OF127_VS1)            Questions for female sterilization             
+                               A       Protect from pregnancy immediately
+                               B       Procedure intended to be permanent, slight risk of failure
+                               C       Warning signs that may occur after surgery (severe pain, light-headedne
+                               D       Should return to clinic if experience warning signs
+                               E       Method does not protect against STIs/HIV
+                               Y       None of the above
+                               ?       Missing
+OF129                  Questions for LAM                                161    6   AN    I    1    0   No   No
+  (OF129_FRA)            Contraception d'urgence                        
+                               A       Prendre une autre dose si vomissement dans les deux heures qui suivent 
+                               B       Retour pour un contrôle de grossesse, si les prochaines règles sont exc
+                               C       Première dose qui doit être prise dans les 72 heures après le rapport s
+                               D       Deuxième dose qui devrait être prise 12 heures après la première dose
+                               E       Pas une méthode contraceptive de routine et donc ne doit pas êtres répé
+                               F       La méthode ne protège pas contre les IST et le VIH
+                               Y       Aucun
+                               ?       Manquant
+  (OF129_VS1)            Questions for LAM                              
+                               A       Take another dose if vomiting within two hours of taking
+                               B       Return for pregnancy check if period is unusually light or fails to occ
+                               C       First dose to be taken within 72 hours of unprotected sexual contact
+                               D       Second dose that should be taken 12 hours after the first dose
+                               E       Not a routine contraceptive method and therefore should not be repeated
+                               F       The method does not protect against STIs and HIV
+                               Y       None of the above
+                               ?       Missing
+OF130                  Additional provider actions                      167    5   AN    I    1    0   No   No
+  (OF130_FRA)            Actions additionnelles du prestataire          
+                               A      Regardé la carte de santé du/de la client(e) à n'importe quel moment ava
+                               B      Ecrit sur la fiche de PF et sur la carte de RDV du/de la client(e)
+                               C      Utilisé quelque aide visuelle pour l'éducation sanitaire ou des conseils
+                               D      Parlé de la prochaine visite
+                               Y      Aucun
+                               ?      Manquant
+  (OF130_VS1)            Additional provider actions                    
+                               A      Look at client's health card before consult, while collecting informatio
+                               B      Wrote on client's health card
+                               C      Used any visual aids for health education or counseling about family pla
+                               D      Discussed a return visit
+                               Y      None of the above
+                               ?      Missing
+OF131A                 Client has had previous contact with provider i  172    1    N    I    1    0   No   No
+  (OF131A_FRA)           Le/la client(e) a déjà eu un contact avec un pr
+                               1  Oui
+                               2  Non
+                               8  NSP
+                           (m) 9  Manquant
+  (OF131A_VS1)           Client has had previous contact with provider i
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+OF131B                 Client has been pregnant                         173    1    N    I    1    0   No   No
+  (OF131B_FRA)           La cliente a été enceinte                      
+                               1  Oui
+                               2  Non
+                               3  Patient (homme)
+                               8  NSP
+                           (m) 9  Manquant
+  (OF131B_VS1)           Client has been pregnant                       
+                               1  Yes
+                               2  No
+                               3  Male client
+                               8  Don't know
+                           (m) 9  Missing
+OF201                  Clinical procedure                               174    5   AN    I    1    0   No   No
+  (OF201_FRA)            Observation clinique                           
+                               A      Examen pelvien
+                               B      Insertion et/ou retrait du DIU
+                               C      Administration d'un injectable
+                               D      Insertion et/ou retrait des implants
+                               Y      Aucun
+                               ?      Manquant
+  (OF201_VS1)            Clinical procedure                             
+                               A      Pelvic exam
+                               B      IUCD insertion and/or removal
+                               C      Injectable given
+                               D      Implant insertion and/or removal
+                               Y      None of the above
+                               ?      Missing
+OF202                  Same provider as consult                         179    1    N    I    1    0   No   No
+  (OF202_FRA)            Même prestataire qui a fait le counseling      
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (OF202_VS1)            Same provider as consult                       
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+OF203                  Permission from new provider                     180    1    N    I    1    0   No   No
+  (OF203_FRA)            Permission de nouveau prestataire              
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (OF203_VS1)            Permission from new provider                   
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+OF204                  Provider type                                    181    2    N    I    1    0   No   No
+  (OF204_FRA)            Type du prestataire                            
+                               1   Médécin généraliste
+                               2   Médécin spécialiste
+                               3   Technicien de laboratoire
+                               4   Auxiliaire de laboratoire [y compris aide]
+                               5   Technicien de radiologie
+                               6   Technicien en imagerie medicale
+                               7   Hygienist dentaire
+                               8   Infirmier(e)
+                               9   Infirmier(e) specialist(e)
+                               10  Auxiliaire infirmier(e)
+                               11  Sage femme
+                               12  Pharmacien
+                               13  Auxiliaire en pharmacie
+                               14  Autres agents de santé communautaire
+                               95  Qualification non technique
+                               96  Autre (specifiez)
+                           (m) 99  Manquant
+  (OF204_VS1)            Provider type                                  
+                               1   General medical doctor
+                               2   Specialist medical doctor
+                               3   Lab technician
+                               4   Auxiliary lab technician
+                               5   Radiology technician
+                               6   Technician in medical images
+                               7   Dental hygienist
+                               8   Nurse
+                               9   Specialist nurse
+                               10  Auxiliary nurse
+                               11  Midwife
+                               12  Pharmacist
+                               13  Auxiliary pharmacist
+                               14  Other community health workers
+                               95  Non technical qualification
+                               96  Other
+                           (m) 99  Missing
+OF205                  Sex of provider                                  183    1    N    I    1    0   No   No
+  (OF205_FRA)            Sexe du prestataire                            
+                               1  Masculin
+                               2  Féminin
+  (OF205_VS1)            Sex of provider                                
+                               1  Male
+                               2  Female
+OF206                  Pelvic exam conducted                            184    1    N    I    1    0   No   No
+  (OF206_FRA)            Examen pelvien                                 
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (OF206_VS1)            Pelvic exam conducted                          
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+OF207                  Actions before procedure                         185    7   AN    I    1    0   No   No
+  (OF207_FRA)            Avant l'examen                                 
+                               A        Assurer l'intimité visuelle de la patiente
+                               B        Assurer l'intimité auditive de la patiente
+                               C        Avant de commencer, expliquer les procédures
+                               D        Preparer les instruments avant la procédure
+                               E        Avant de commencer, se laver les mains avec de l'eau et du savon ou av
+                               F        Porter des gants en latex avant de commencer
+                               Y        Aucun
+                               ?        Manquant
+  (OF207_VS1)            Actions before procedure                       
+                               A        Ensured client had visual privacy
+                               B        Ensured client had auditory privacy
+                               C        Explained procedure before starting
+                               D        Prepared all instruments before starting procedure
+                               E        Washed (with soap) or disinfected hands before starting procedure
+                               F        Put on latex gloves before starting procedure
+                               Y        None of the above
+                               ?        Missing
+OF208                  Actions during procedure                         192    7   AN    I    1    0   No   No
+  (OF208_FRA)            Pendant l'examen                               
+                               A        Utiliser des instruments stérilisés ou désinfectés à un haut niveau
+                               B        Demander à la patiente de respirer profondément et lentement afin de r
+                               C        Inspecter les organes génitaux externes
+                               D        Expliquer l'utilisation du speculum (s'il est utilisé)
+                               E        Inspecter la muqueuse vaginale et le col de l'uterus en utilisant le s
+                               F        Exécuter un examen bimanuel de l'uterus (MAIN DANS DE VAGIN ET L'AUTRE
+                               Y        Aucun
+                               ?        Manquant
+  (OF208_VS1)            Actions during procedure                       
+                               A        Used sterilised or HLD instruments
+                               B        Asked client to take slow deep breaths and relax muscles
+                               C        Inspected external genitalia
+                               D        Explained speculum procedure (if used)
+                               E        Inspected cervix and vaginal mucosa (using speculum & light)
+                               F        Performed bimanual exam (2 fingers in vagina, other hand palpating abd
+                               Y        None of the above
+                               ?        Missing
+OF209                  Actions after procedure                          199    5   AN    I    1    0   No   No
+  (OF209_FRA)            Apres l'examen                                 
+                               A      Retirer le gants
+                               B      Laver ou désinfecter les mains après avoir rétirer les gants
+                               C      Essuyer les surfaces souillées en utilisant un désinfectant
+                               D      Placer les instruments ré-utilisables dans une solution désinfectante à 
+                               Y      Aucun
+                               ?      Manquant
+  (OF209_VS1)            Actions after procedure                        
+                               A      Removed gloves
+                               B      Washed disinfected hands after removing gloves
+                               C      Wiped contaminated surfaces with disinfectant
+                               D      Place reusable instruments in chlorine-based disinfecting solution immed
+                               Y      None of the above
+                               ?      Missing
+OF210                  IUD insertion or removal conducted               204    4   AN    I    1    0   No   No
+  (OF210_FRA)            Insertion/retrait du DIU                       
+                               A     Insertion du DIU
+                               B     Retrait du DIU
+                               C     Examen du DIU
+                               Y     Aucun
+                               ?     Manquant
+  (OF210_VS2)            IUD insertion or removal conducted             
+                               A     IUCD insertion
+                               B     IUCD removal
+                               C     IUCD checkup
+                               Y     None of the above
+                               ?     Missing
+OF211                  Actions before procedure                         208   10   AN    I    1    0   No   No
+  (OF211_FRA)            Avant la procedure                             
+                               A           Assurer l'intimité visuelle de la cliente
+                               B           Assurer l'intimité auditive de la cliente
+                               C           Avant de commencer, expliquez les procédures
+                               D           (POUR NOUVELLE CLIENTE) Reconfirmer avec la patiente le choix de la
+                               E           (POUR NOUVELLE CLIENTE) S'assurer que la patiente n'est pas enceint
+                               F           Preparer les insturments avant la procédure
+                               G           Avant de commencer, se laver les mains avec de l'eau et du savon ou
+                               H           Avant de commencer, porter des gants en latex
+                               I           Nettoyer la vagin et le col de l'uterus avec un désinfectant
+                               Y           Aucun
+                               ?           Manquant
+  (OF211_VS1)            Actions before procedure                       
+                               A           Ensured client had visual privacy
+                               B           Ensured client had auditory privacy
+                               C           Explained procedure before starting
+                               D           (NEW CLIENT) reconfirmed client choice of method
+                               E           (NEW CLIENT) confirmed client not pregnant
+                               F           Prepared all instruments before starting procedure
+                               G           Washed (with soap) or disinfected hands before starting procedure
+                               H           Put on latex gloves before starting procedure
+                               I           Clean cervix and vagina with antiseptic
+                               Y           None of the above
+                               ?           Missing
+OF212                  Actions during procedure                         218    9   AN    I    1    0   No   No
+  (OF212_FRA)            Pendant la procedure                           
+                               A          Exécuter un examen bimanuel de l'uterus (MAIN DANS LE VAGIN ET L'AUT
+                               B          Réaliser l'examen au speculum avant l'examen bimanuel
+                               C          Inspecter la muqueuse vaginale et le col de l'uterus en utilisant le
+                               D          Utiliser une pince de Pozzi
+                               E          Mésurer la hauteur utérine avant d'inserer le DIU
+                               F          Expliquer chacune des procedures ci-dessus
+                               G          Utiliser la "technique de retrait" pour inserer DIU
+                               H          Utiliser des instruments stérilisés ou désinfectés à un haut niveau
+                               Y          Aucun
+                               ?          Manquant
+  (OF212_VS1)            Actions during procedure                       
+                               A          Performed bimanual exam (2 fingers in vagina, other hand palpating a
+                               B          Performed a speculum exam before conducting bimanual exam
+                               C          Inspected cervix and vagiinal mucosa (used speculum and light)
+                               D          Used a tenaculum
+                               E          Sounded the uterus before inserting the IUCD
+                               F          Explained any of the above procedures
+                               G          Used the no-touch technique for insertion
+                               H          Used sterilised or HLD instruments
+                               Y          None of the above
+                               ?          Missing
+OF213                  Actions after procedure                          227    6   AN    I    1    0   No   No
+  (OF213_FRA)            Après la procedure                             
+                               A       Rétirer les gants
+                               B       Laver ou désinfecter les mains après avoir rétirer les gants
+                               C       Demander à la cliente d'attendre et de se reposer 5 minutes après l'ins
+                               D       Essuyer les surfaces souillées en utilisant un désinfectant
+                               E       Placer les instruments ré-utilisables dans une solution désinfectante à
+                               Y       Aucun
+                               ?       Manquant
+  (OF213_VS1)            Actions after procedure                        
+                               A       Removed gloves
+                               B       Washed disinfected hands after removing gloves
+                               C       Asked client to wait and rest for 5 minutes after insertion of IUCD
+                               D       Wiped contaminated surfaces with disinfectant
+                               E       Placed reusable gloves or instruments in chlorine-based disinfecting so
+                               Y       None of the above
+                               ?       Missing
+OF214                  Client-provider interaction                      233    8   AN    I    1    0   No   No
+  (OF214_FRA)            Interaction cliente-prestataire                
+                               A         A-t-il dit à la cliente que la méthode est efficace pour 5 à 10 ans?
+                               B         A-t-il conseillé à la patiente de retourner à l'institution dans 3-6 
+                               C         A-t-il instruit la cliente de verifier régulièrement la présence du f
+                               D         A-t-il dit à la cliente qu'elle pourrait expérimenter des effets seco
+                               E         A-t-il instruit à la cliente de retourner à l'institution si les effe
+                               F         A-t-il donné à la cliente une carte mentionnant la date de l'insertio
+                               G         (SI RETRAIT DU DIU):  Montrer le DIU qui a été retiré
+                               Y         Aucun
+                               ?         Manquant
+  (OF214_VS1)            Client-provider interaction                    
+                               A         Client told that IUCD good for up to 5 to 10 years
+                               B         Client instructed to return to clinic 3-6 weeks post insertion or aft
+                               C         Client instructed to regularly check the string after each menstruati
+                               D         Client told may experience side effects (heavy bleeding for first few
+                               E         Client instructed to return to clinic if side effects persist
+                               F         Client provided with card stating the date of IUCD insertion and foll
+                               G         (If IUCD removed) showed IUCD to client
+                               Y         None of the above
+                               ?         Missing
+OF215                  Injectable contraceptive given                   241    1    N    I    1    0   No   No
+  (OF215_FRA)            Les contraceptives injectables                 
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (OF215_VS1)            Injectable contraceptive given                 
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+OF216                  Actions before procedure                         242    8   AN    I    1    0   No   No
+  (OF216_FRA)            Avant la procédure                             
+                               A         (POUR NOUVELLE CLIENTE) Réconfirmer avec la cliente le choix de la mé
+                               B         (POUR NOUVELLE CLIENTE) S'assurer que la cliente n'est pas enceinte
+                               C         (ANCIENNE CLIENTE) Vérifier la carte de la cliente pour s'assurer de 
+                               D         Assurer l'intimité visuelle de la cliente
+                               E         Assurer l'intimité auditive de la cliente
+                               F         Avant de commencer, se laver les mains avec de l'eau et du savon ou a
+                               G         Preparer l'injection dans un espace avec une table ou un plateau prop
+                               Y         Aucun
+                               ?         Manquant
+  (OF216_VS1)            Actions before procedure                       
+                               A         (NEW CLIENT) reconfirmed client's choice of method
+                               B         (NEW CLIENT) Verified client not pregnant
+                               C         (CONTINUING CLIENT) Checked client card to ensure giving injection at
+                               D         Ensured client visual privacy
+                               E         Ensured client auditory privacy
+                               F         Washed (with soap) or disinfected hands before starting procedure
+                               G         Prepared injection in area with clean table/tray to set items on
+                               Y         None of the above
+                               ?         Missing
+OF217                  Actions during procedure                         250    9   AN    I    1    0   No   No
+  (OF217_FRA)            Pendant la procedure                           
+                               A          (S'IL UTILISE DU MATERIEL JETABLE) Utiliser une nouvelle seringue et
+                               B          Ouvrir un nouveau paquet de seringues et d'aiguilles
+                               C          Retirer chaque fois l'aiguille du flacon à dose multiple
+                               D          Remuer ou agiter le contenu du flacon avant de retirer la dose
+                               E          Avant l'injection, nettoyer et secher à l'air libre le lieu de l'inj
+                               F          Tirer le piston de la seringue en arrièrre avant d'injecter le produ
+                               G          Après l'injection, permettre à la dose de se disperser toute seule a
+                               H          Jeter les objets tranchants dans une boite de sécurité
+                               Y          Aucun
+                               ?          Manquant
+  (OF217_VS1)            Actions during procedure                       
+                               A          (IF USING DISPOSABLES) Used new syringe and needle from sterile seal
+                               B          Opened new packet of syringe and needle
+                               C          Removed needle from multiple dose vial each time
+                               D          Stirred or mixed the bottle before drawing dose (Depo)
+                               E          Cleaned and air-dried the injection site before injection
+                               F          Drew back plunger before giving injection
+                               G          Allowed dose to self-disperse instead of massaging the site
+                               H          Dispose of sharps in a safety box
+                               Y          None of the above
+                               ?          Missing
+OF218                  Needle/syringe provision                         259    1    N    I    1    0   No   No
+  (OF218_FRA)            L'aiguille et la seringue ont été fournies par 
+                               1  Fournies par l'institution
+                               2  Fournies par cliente
+                               8  Ne sais pas
+                           (m) 9  Manquant
+  (OF218_VS1)            Needle/syringe provision                       
+                               1  Provided by facility
+                               2  Provided by client
+                               8  Don't know
+                           (m) 9  Missing
+OF220                  Implant inserted or removed                      260    3   AN    I    1    0   No   No
+  (OF220_FRA)            Insertion/retrait d'implant                    
+                               A    Insertion d'implant
+                               B    Retrait d'implant
+                               Y    Aucun
+                               ?    Manquant
+  (OF220_VS1)            Implant inserted or removed                    
+                               A    Implant insertion
+                               B    Implant removal
+                               Y    None of the above
+                               ?    Missing
+OF221                  Actions before procedure                         263   10   AN    I    1    0   No   No
+  (OF221_FRA)            Avant la procédure                             
+                               A           (POUR NOUVELLE CLIENTE) Réconfirmer avec la cliente le choix de la 
+                               B           (POUR NOUVELLE CLIENTE) S'assurer que la cliente n'est pas enceinte
+                               C           Assurer l'intimité visuelle de la cliente
+                               D           Assurer l'intimité auditive de la cliente
+                               E           Avant de commencer, expliquer les procédures
+                               F           Preparer les instruments avant la procédure
+                               G           Utiliser des instruments stérilisés ou désinfectés à un haut niveau
+                               H           Avant de commencer, se laver les mains avec de l'eau et du savon ou
+                               I           Mettre des gants stériles et maintenir la stérilité durant la procé
+                               Y           Aucun
+                               ?           Manquant
+  (OF221_VS2)            Actions before procedure                       
+                               A           (NEW CLIENT) Reconfirmed client's choice of method
+                               B           (NEW CLIENT) Verified client was not pregnant
+                               C           Ensured client visual privacy
+                               D           Ensured client auditory privacy
+                               E           Explained procedure before starting
+                               F           Prepared all instruments before starting procedure
+                               G           Used sterilised or HLD instrucments
+                               H           Washed (with soap) or disinfected hands before starting procedure
+                               I           Put on sterile gloves and maintain sterility during insertion
+                               Y           None of the above
+                               ?           Missing
+OF222                  Actions during procedure                         273    5   AN    I    1    0   No   No
+  (OF222_FRA)            Pendant la procedure                           
+                               A      Nettoyer la peau à l'endroit où l'incision sera faite avec un antiseptiq
+                               B      Utiliser un champ stérile pour protéger l'endroit de l'incision
+                               C      Utiliser une aiguille et une seringue nouvelle ou stérilisées pour l'ané
+                               D      Laisser à l'anestésie locale le temps d'agir avant de faire l'incision
+                               Y      Aucun
+                               ?      Manquant
+  (OF222_VS1)            Actions during procedure                       
+                               A      Cleaned skin where incision was made with antiseptic
+                               B      Used sterile towel to protect area
+                               C      Used new or sterilised needle and syringe for local anaesthetic
+                               D      Allowed time for local anaesthetic to take effect prior to making incisi
+                               Y      None of the above
+                               ?      Missing
+OF223                  Actions after procedure                          278    9   AN    I    1    0   No   No
+  (OF223_FRA)            Après la procédure                             
+                               A          Jetter les objets tranchants dans un boîte de sécurité
+                               B          Essuyer les surfaces souillées avec un désinfectant
+                               C          Placer les instruments ré-utilisables dans une solution désinfectant
+                               D          Retirer les gants
+                               E          Laver ou désintecter les mains après avoir retiré les gants
+                               F          Expliquer les soins de l'incision et le retrait du pansement
+                               G          Discuter de la visite prochaine pour le retrait du pansement adhésif
+                               H          Fournir à la cliente une carte mentionnant la date de l'insertion de
+                               Y          Aucun
+                               ?          Manquant
+  (OF223_VS1)            Actions after procedure                        
+                               A          Disposed of sharps in puncture-resistant containers
+                               B          Wiped contaminated surfaces with disinfectant
+                               C          Placed instruments in chlorine solution immediately after completing
+                               D          Removed gloves
+                               E          Washed disinfected hands after removing gloves
+                               F          Explained care of incision area and removal of bandage
+                               G          Discussed return visit to remove plaster
+                               H          (If insertion) Provided client with card stating date implant was in
+                               Y          None of the above
+                               ?          Missing
+OF224                  Client-provider interaction                      287    7   AN    I    1    0   No   No
+  (OF224_FRA)            Interaction patiente-prestataire               
+                               A        Cliente informée que l'implant est efficace pendant 3-5 ans (nombre d'
+                               B        Cliente informée sur des changements possibles du cycle mensuel et/ou 
+                               C        Cliente informée sur d'autres effects secondaires non menstruels tels 
+                               D        Cliente informée qu' elle dois retourner à l'institution si les effets
+                               E        (EN CAS DE RETRAIT):  Montrer à la cliente chaque capsule d'implant re
+                               F        Fournir à la cliente une carte mentionnant la date de l'insertion de l
+                               Y        Aucun
+                               ?        Manquant
+  (OF224_VS1)            Client-provider interaction                    
+                               A        Client instructed that implant is good for 3-5 years (depending upon t
+                               B        Client told about possible menstrual changes and/or side effects
+                               C        Client told about other (non-menstrual) side effects (nausea, weight g
+                               D        Client instructed to return to clinic if side effects persist
+                               E        (IF IMPLANT REMOVAL) Client shown each implant stick removed and reass
+                               F        Client provided with card stating date implant was inserted and date w
+                               Y        None of the above
+                               ?        Missing
+OF225                  Needle/ syringe provision                        294    1    N    I    1    0   No   No
+  (OF225_FRA)            L'aiguille et la seringue ont ete fournies par 
+                               1  Fournies par service
+                               2  Fournies par cliente
+                               8  Ne sais pas
+                           (m) 9  Manquant
+  (OF225_VS1)            Needle/ syringe provision                      
+                               1  Provided by facility
+                               2  Provided by client
+                               8  Don't know
+                           (m) 9  Missing
+OF301                  FP status of client at beginning of consult      295    1    N    I    1    0   No   No
+  (OF301_FRA)            Status des clients des services de Plannificati
+                               1  Utilise
+                               2  N'utilise pas, a utilisé par le passé
+                               3  N'utilise pas et n'a jamais utilisé
+                               8  Indetermine
+                           (m) 9  Manquant
+  (OF301_VS1)            FP status of client at beginning of consult    
+                               1  Current user
+                               2  Nonuser, used in past
+                               3  Nonuser, no past use
+                               8  Not determined
+                           (m) 9  Missing
+OF302                  Client's principal reason for visit              296    1    N    I    1    0   No   No
+  (OF302_FRA)            Principale raison de cette visite pour la clien
+                               1  Reapprovisionnement suivi routinier
+                               2  Discuter de problème avec la methode
+                               3  Desire changer methode (pas de problème)
+                               4  Desire arreter PF (pas de problème)
+                               5  Discuter autre problème physique
+                           (m) 9  Manquant
+  (OF302_VS2)            Client's principal reason for visit            
+                               1  Resupply or routine follow-up
+                               2  Discuss problem with method
+                               3  Desire to change method (no problem)
+                               4  Desire to discontinue method (no problem)
+                               5  Discuss other physical problem
+                           (m) 9  Missing
+OF303                  Outcome of visit for FP user                     297    1    N    I    1    0   No   No
+  (OF303_FRA)            Issue de la visite (UTILISATRICE ACTUELLE)     
+                               1  A continue avec methode actuelle
+                               2  A change de methode
+                               3  Changera de methode non reçue aujourd'hui continue avec methode actuelle
+                               4  Changera de methode non reçue aujourd'hui arrete methode actuelle
+                               5  A decidé d'arreter d'utiliser la PF
+                           (m) 9  Manquant
+  (OF303_VS1)            Outcome of visit for FP user                   
+                               1  Continued with current method
+                               2  Switched method
+                               3  Planned method switch, not received today, continued use of current method
+                               4  Planned method switch, not received today, discontinued current method
+                               5  Decided to stop using family planning
+                           (m) 9  Missing
+OF304                  Outcome of visit for non-user                    298    1    N    I    1    0   No   No
+  (OF304_FRA)            Issue de la visite (PAS UTILISATRICE ACTUELLE) 
+                               1  Accepté commencer une methode
+                               2  N'a pas choisi une methode
+                           (m) 9  Manquant
+  (OF304_VS1)            Outcome of visit for non-user                  
+                               1  Accepted to start method
+                               2  Did not decide on method
+                           (m) 9  Missing
+OF305                  Client left with method                          299    1    N    I    1    0   No   No
+  (OF305_FRA)            Est ce que la cliente est partie avec une m'eth
+                               1  Oui, a quitte avec une methode
+                               2  Non, n'est pas en stock
+                               3  Non, necessite un rendez-vous
+                               4  Non, reporte pour raison de santé
+                               5  Non, statut grossesse incertain
+                               6  Autre
+                           (m) 9  Manquant
+  (OF305_VS1)            Client left with method                        
+                               1  Yes, left with method
+                               2  No, method not in stock
+                               3  No, requires appointment
+                               4  No, delay receiving due to health problem
+                               5  No, pregnancy status uncertain
+                               6  Other
+                           (m) 9  Missing
+OF306                  Provider wrote on card after consult             300    1    N    I    1    0   No   No
+  (OF306_FRA)            Prestataire a écrit sur la carte apres la consu
+                               1  Oui
+                               2  Non
+                               3  Pas de carnet individuel
+                               8  Ne sais pas
+                           (m) 9  Manquant
+  (OF306_VS1)            Provider wrote on card after consult           
+                               1  Yes
+                               2  No
+                               3  No individual card used
+                               8  Don't know
+                           (m) 9  Missing
+OF307H                 Hour consult ended                               301    2    N    I    1    0   No   No
+  (OF307H_FRA)           Heure de la fin de l'observation               
+                               6:22  
+  (OF307H_VS1)           Hour consult ended                             
+                               6:22  
+OF307M                 Minute consult ended                             303    2    N    I    1    0   No   No
+  (OF307M_FRA)           Minute de la fin de l'observation              
+                               0:59  
+  (OF307M_VS1)           Minute consult ended                           
+                               0:59  
+XFPDAY                 Client Day                                       305    2    N    I    1    0   No   No
+  (XFPDAY_FRA)           Jour client                                    
+                               1:31  
+  (XFPDAY_VS1)           Client Day                                     
+                               1:31  
+XFPMONTH               Client Month                                     307    2    N    I    1    0   No   No
+  (XFPMONTH_FRA)         Client moins                                   
+                               1   Janvier
+                               2   Février
+                               3   Mars
+                               4   Avril
+                               5   Mai
+                               6   Juin
+                               7   Juillet
+                               8   Août
+                               9   Septembre
+                               10  Octobre
+                               11  Novembre
+                               12  Décembre
+  (XFPMONTH_VS1)         Client Month                                   
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+XFPYEAR                Client Year                                      309    4    N    I    1    0   No   No
+  (XFPYEAR_FRA)          Client Année                                   
+                               2017:2018  
+  (XFPYEAR_VS2)          Client Year                                    
+                               2017:2018  
+XFPINTV                Interviewer code                                 313    4    N    I    1    0   No   No
+  (XFPINTV_FRA)          Code du enqueteur                              
+                               1000  
+                               1001  
+                               1002  
+                               1003  
+                               1004  
+                               1100  
+                               1101  
+                               1102  
+                               1103  
+                               1104  
+                               1200  
+                               1201  
+                               1202  
+                               1203  
+                               1204  
+                               1205  
+                               1300  
+                               1301  
+                               1302  
+                               1303  
+                               1304  
+                               1305  
+                               1400  
+                               1401  
+                               1402  
+                               1403  
+                               1404  
+                               1405  
+                               1500  
+                               1501  
+                               1502  
+                               1503  
+                               1504  
+                               1600  
+                               1601  
+                               1602  
+                               1603  
+                               1604  
+                               1700  
+                               1701  
+                               1702  
+                               1703  
+                               1704  
+                               1800  
+                               1801  
+                               1802  
+                               1803  
+                               1804  
+                               1900  
+                               1901  
+                               1902  
+                               1903  
+                               1904  
+                               2000  
+                               2001  
+                               2002  
+                               2003  
+                               2004  
+                               2100  
+                               2101  
+                               2102  
+                               2103  
+                               2104  
+                               2200  
+                               2201  
+                               2202  
+                               2203  
+                               2204  
+                               2300  
+                               2301  
+                               2302  
+                               2303  
+                               2304  
+                               2400  
+                               2401  
+                               2402  
+                               2403  
+                               2404  
+  (XFPINTV_VS1)          Interviewer code                               
+                               1000  
+                               1001  
+                               1002  
+                               1003  
+                               1004  
+                               1100  
+                               1101  
+                               1102  
+                               1103  
+                               1104  
+                               1200  
+                               1201  
+                               1202  
+                               1203  
+                               1204  
+                               1205  
+                               1300  
+                               1301  
+                               1302  
+                               1303  
+                               1304  
+                               1305  
+                               1400  
+                               1401  
+                               1402  
+                               1403  
+                               1404  
+                               1405  
+                               1500  
+                               1501  
+                               1502  
+                               1503  
+                               1504  
+                               1600  
+                               1601  
+                               1602  
+                               1603  
+                               1604  
+                               1700  
+                               1701  
+                               1702  
+                               1703  
+                               1704  
+                               1800  
+                               1801  
+                               1802  
+                               1803  
+                               1804  
+                               1900  
+                               1901  
+                               1902  
+                               1903  
+                               1904  
+                               2000  
+                               2001  
+                               2002  
+                               2003  
+                               2004  
+                               2100  
+                               2101  
+                               2102  
+                               2103  
+                               2104  
+                               2200  
+                               2201  
+                               2202  
+                               2203  
+                               2204  
+                               2300  
+                               2301  
+                               2302  
+                               2303  
+                               2304  
+                               2400  
+                               2401  
+                               2402  
+                               2403  
+                               2404  
+XFPCCODE               Client code                                      317    3    N    I    1    0   No   No
+  (XFPCCODE_FRA)         Code du client                                 
+                               201:299  
+  (XFPCCODE_VS1)         Client code                                    
+                               201:299  
+XF100                  Permission to continue                           320    1    N    I    1    0   No   No
+  (XF100_FRA)            Puis-je commencer l'entreveu                   
+                               1  Oui
+                               2  Non
+  (XF100_VS1)            Permission to continue                         
+                               1  Yes, client agrees
+                               2  No, client refuses
+XF101H                 Time begins hour                                 321    2    N    I    1    0   No   No
+  (XF101H_FRA)           Heure de debut de l'interview                  
+                               6:22  
+  (XF101H_VS1)           Time begins hour                               
+                               6:22  
+XF101M                 Time begins minutes                              323    2    N    I    1    0   No   No
+  (XF101M_FRA)           Minute du debut de l'interview                 
+                               0:59  
+  (XF101M_VS1)           Time begins minutes                            
+                               0:59  
+XF102                  Sex of client                                    325    1    N    I    1    0   No   No
+  (XF102_FRA)            Sexe du repodant                               
+                               1  Masculin
+                               2  Féminin
+  (XF102_VS1)            Sex of client                                  
+                               1  Male
+                               2  Female
+XF103                  Using FP when visited on day of survey           326    1    N    I    1    0   No   No
+  (XF103_FRA)            Utilisation FP avant la visite sur le jour de l
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF103_VS1)            Using FP when visited on day of survey         
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XF104                  Used FP in last 6 months                         327    1    N    I    1    0   No   No
+  (XF104_FRA)            Planification familiale utilisé dans les 6 dern
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF104_VS1)            Used FP in last 6 months                       
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XF105                  Method using                                     328   16   AN    I    1    0   No   No
+  (XF105_FRA)            Méthode PF utiliser                            
+                               A                 Pilule combinée
+                               B                 Pilule progest. seule
+                               C                 Pilule (type non specifié)
+                               D                 Inj. Norigynon (1 mois)
+                               E                 Inj. Depo Provera (2-3 mois)
+                               F                 Condom masculin
+                               G                 Condom féminin
+                               H                 DIU
+                               I                 Implant
+                               J                 Contraception d'urgence
+                               K                 Methode du collier
+                               L                 Methodes naturelles (abstinence periodique)
+                               M                 Sterilisation masculine (vasectomie)
+                               N                 Sterilisation feminine (ligature des trompes)
+                               O                 Allaitement/MAMA
+                               X                 Autre
+                               ?                 Manquant
+  (XF105_VS1)            Method using                                   
+                               A                 Combined oral pill
+                               B                 Progestin-only oral pill
+                               C                 Pill (type unspecified)
+                               D                 Combined injectable (monthly)
+                               E                 Progestin-only injectable (2 or 3 monthly)
+                               F                 Male condom
+                               G                 Female condom
+                               H                 IUCD
+                               I                 Implant
+                               J                 Emergency contraception
+                               K                 Cycle beads for standard days method (SDM)
+                               L                 Natural method (periodic abstinence)
+                               M                 Vasectomy (male sterilization)
+                               N                 Tubal ligation (female sterilization)
+                               O                 Lactational amenorhea (LAM)
+                               X                 Other (spermicide, diaphragm, etc)
+                               ?                 Missing
+XF106                  Provider asked about problems                    344    1    N    I    1    0   No   No
+  (XF106_FRA)            Prestataire posé des questions sur les problème
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF106_VS1)            Provider asked about problems                  
+                               1  Yes, asked
+                               2  No, did not asked
+                           (m) 9  Missing
+XF107                  Client has had problems                          345    1    N    I    1    0   No   No
+  (XF107_FRA)            Le client a eu des problèmes                   
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF107_VS1)            Client has had problems                        
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XF107A                 Which problems have you had with the method?     346   11   AN    I    1    0   No   No
+  (XF107A_FRA)           Problèmes eu avec la méthode?                  
+                               A            Nausée
+                               B            Cephalée
+                               C            Gouttelette de sang
+                               D            Metrorragie
+                               E            Amenorrhée
+                               F            Crampes
+                               G            Hypermenorrhée
+                               H            Infection
+                               I            Rejet
+                               J            Oubli
+                               K            Douleur abdominale
+                               X            Autre
+                               ?            Manquant
+  (XF107A_VS1)           Which problems have you had with the method?   
+                               A            Nausea
+                               B            Headache
+                               C            Spotting
+                               D            Metrorrhagia
+                               E            Amenorrhea
+                               F            Cramps
+                               G            Hypermenorrhea
+                               H            Infection
+                               I            Reject
+                               J            Forgot
+                               K            Abdominal pain
+                               X            Other
+                               ?            Missing
+XF108                  Client mentioned problem to provider             357    1    N    I    1    0   No   No
+  (XF108_FRA)            Client mentionné une problème au prestataire   
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF108_VS1)            Client mentioned problem to provider           
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XF109                  Provider suggested action to resolve problem     358    1    N    I    1    0   No   No
+  (XF109_FRA)            Prestataire a proposé des mesures pour résoudre
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF109_VS1)            Provider suggested action to resolve problem   
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XF110                  Outcome of visit                                 359    1    N    I    1    0   No   No
+  (XF110_FRA)            Resultats de cette visite                      
+                               1  Continuer avec ou recommen. même méthode
+                               2  Changer de méthode
+                               3  Arreter utilisation (en raison de problèmes)
+                               4  Arreter utilisation (personnel-pas de problèmes)
+                           (m) 9  Manquant
+  (XF110_VS1)            Outcome of visit                               
+                               1  Continue or restart same method
+                               2  Switch methods
+                               3  Stop using method (due to problems)
+                               4  Stop using method (elective-no problems)
+                           (m) 9  Missing
+XF111                  Thought about switching before visit             360    1    N    I    1    0   No   No
+  (XF111_FRA)            Envisagé de changer avant la visite            
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF111_VS1)            Thought about switching before visit           
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XF112                  Thought about FP method to use before visit      361    1    N    I    1    0   No   No
+  (XF112_FRA)            Réflexion sur la méthode de planification famil
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF112_VS1)            Thought about FP method to use before visit    
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XF113                  Method considered                                362   16   AN    I    1    0   No   No
+  (XF113_FRA)            Methode considerée                             
+                               A                 Pilule combinée
+                               B                 Pilule progest. seule
+                               C                 Pilule (type non specifié)
+                               D                 Inj. Norigynon (1 mois)
+                               E                 Inj. Depo Provera (2-3 mois)
+                               F                 Condom masculin
+                               G                 Condom féminin
+                               H                 DIU
+                               I                 Implant
+                               J                 Contraception d'urgence
+                               K                 Methode du collier
+                               L                 Methodes naturelles (abstinence periodique)
+                               M                 Sterilisation masculine (vasectomie)
+                               N                 Sterilisation feminine (ligature des trompes)
+                               O                 Allaitement/MAMA
+                               X                 Autre
+                               ?                 Manquant
+  (XF113_VS1)            Method considered                              
+                               A                 Combined oral pill
+                               B                 Progestin-only oral pill
+                               C                 Oral pill (type unspecified)
+                               D                 Combined injectable (monthly)
+                               E                 Progestin-only injectable (2 or 3 monthly)
+                               F                 Male condom
+                               G                 Female condom
+                               H                 IUCD
+                               I                 Implant
+                               J                 Emergency contraception
+                               K                 Cycle beads for standard days method (SDM)
+                               L                 Natutal method (periodic abstinence)
+                               M                 Vasectomy (male sterilization)
+                               N                 Tubal ligation (female sterilization)
+                               O                 Lactational amenorhea (LAM)
+                               X                 Other (spermicide, diaphragm, etc)
+                               ?                 Missing
+XF114                  Provider discussed method in XF113               378    1    N    I    1    0   No   No
+  (XF114_FRA)            Prestataire discuté méthode XF113              
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XF114_VS1)            Provider discussed method in XF113             
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XF115                  FP methods provider discussed                    379   16   AN    I    1    0   No   No
+  (XF115_FRA)            Méthodes de planification familiale prestataire
+                               A                 Pilule combinée
+                               B                 Pilule progest. seule
+                               C                 Pilule (type non specifié)
+                               D                 Inj. Norigynon (1 mois)
+                               E                 Inj. Depo Provera (2-3 mois)
+                               F                 Condom masculin
+                               G                 Condom féminin
+                               H                 DIU
+                               I                 Implant
+                               J                 Contraception d'urgence
+                               K                 Methode de collier
+                               L                 Methodes naturelles (abstinence periodique)
+                               M                 Sterilisation masculine (vasectomie)
+                               N                 Sterilisation feminine (ligature des trompes)
+                               O                 Allaitement/MAMA
+                               X                 Autre
+                               Y                 Pas d'autre methode
+                               ?                 Manquant
+  (XF115_VS1)            FP methods provider discussed                  
+                               A                 Combined oral pill
+                               B                 Progestin-only oral pill
+                               C                 Oral pill (type unspecified)
+                               D                 Combined injectable (monthly)
+                               E                 Progestin-only injectable (2 or 3 monthly)
+                               F                 Male condom
+                               G                 Female condom
+                               H                 IUCD
+                               I                 Implant
+                               J                 Emergency contraception
+                               K                 Cycle beads for standard days method (SDM)
+                               L                 Natutal method (periodic abstinence)
+                               M                 Vasectomy (male sterilization)
+                               N                 Tubal ligation (female sterilization)
+                               O                 Lactational amenorhea (LAM)
+                               X                 Other (spermicide, diaphragm, etc)
+                               Y                 No more methods discussed
+                               ?                 Missing
+XF116A                 FP method prescribed                             395   18   AN    I    1    0   No   No
+  (XF116A_FRA)           Méthode de planification familiale prescrits   
+                               A                   Pilule combinée
+                               B                   Pilule progest. seule
+                               C                   Pilule (type non specifié)
+                               D                   Inj. Norigynon (1 mois)
+                               E                   Inj. Depo Provera (2-3 mois)
+                               F                   Condom masculin
+                               G                   Condom féminin
+                               H                   DIU
+                               I                   Implant
+                               J                   Contraception d'urgence
+                               K                   Methode du collier
+                               L                   Methodes naturelles (abstinence periodique)
+                               M                   Sterilisation masculine (vasectomie)
+                               N                   Sterilisation feminine (ligature des trompes)
+                               O                   Allaitement/MAMA
+                               X                   Autre
+                               Y                   Continuation de la methode dans Q105
+                               Z                   Pas de méthode
+                               ?                   Manquant
+  (XF116A_VS1)           FP method prescribed                           
+                               A                   Combined oral pill
+                               B                   Progestin-only oral pill
+                               C                   Oral pill (type unspecified)
+                               D                   Combined injectable (monthly)
+                               E                   Progestin-only injectable (2 or 3 monthly)
+                               F                   Male condom
+                               G                   Female condom
+                               H                   IUCD
+                               I                   Implant
+                               J                   Emergency contraception
+                               K                   Cycle beads for standard days method (SDM)
+                               L                   Natutal method (periodic abstinence)
+                               M                   Vasectomy (male sterilization)
+                               N                   Tubal ligation (female sterilization)
+                               O                   Lactational amenorhea (LAM)
+                               X                   Other (spermicide, diaphragm, etc)
+                               Y                   Continuing with method in Q105
+                               Z                   No Method
+                               ?                   Missing
+XF116B                 FP method received                               413   18   AN    I    1    0   No   No
+  (XF116B_FRA)           Méthode de planification familiale ont reçu    
+                               A                   Pilule combinée
+                               B                   Pilule progest. seule
+                               C                   Pilule (type non specifié)
+                               D                   Inj. Norigynon (1 mois)
+                               E                   Inj. Depo Provera (2-3 mois)
+                               F                   Condom masculin
+                               G                   Condom féminin
+                               H                   DIU
+                               I                   Implant
+                               J                   Contraception d'urgence
+                               K                   Methode du collier
+                               L                   Methodes naturelles (abstinence periodique)
+                               M                   Sterilisation masculine (vasectomie)
+                               N                   Sterilisation feminine (ligature des trompes)
+                               O                   Allaitement/MAMA
+                               X                   Autre
+                               Y                   Continuation de la methode dans Q105
+                               Z                   Pas de méthode
+                               ?                   Manquant
+  (XF116B_VS1)           FP method received                             
+                               A                   Combined oral pill
+                               B                   Progestin-only oral pill
+                               C                   Oral pill (type unspecified)
+                               D                   Combined injectable (monthly)
+                               E                   Progestin-only injectable (2 or 3 monthly)
+                               F                   Male condom
+                               G                   Female condom
+                               H                   IUCD
+                               I                   Implant
+                               J                   Emergency contraception
+                               K                   Cycle beads for standard days method (SDM)
+                               L                   Natutal method (periodic abstinence)
+                               M                   Vasectomy (male sterilization)
+                               N                   Tubal ligation (female sterilization)
+                               O                   Lactational amenorhea (LAM)
+                               X                   Other (spermicide, diaphragm, etc)
+                               Y                   Continuing with method in 105
+                               Z                   No Method
+                               ?                   Missing
+XF117                  Provider actions during consult                  431    1    N    I    4    0   No   No
+  (XF117_FRA)            Prestataire actions pendant consulter          
+                               1  Oui
+                               2  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF117_VS1)            Provider actions during consult                
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+XF118A                 Question for pill                                435    1    N    I    1    0   No   No
+  (XF118A_FRA)           Question pour la pilule                        
+                               1  Une fois par jour
+                               2  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118A_VS1)           Question for pill                              
+                               1  Once a day
+                               2  Other
+                               8  Don't know
+                           (m) 9  Missing
+XF118B                 Question for male condom                         436    1    N    I    1    0   No   No
+  (XF118B_FRA)           Question pour comdom masculin                  
+                               1  Une fois
+                               2  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118B_VS1)           Question for male condom                       
+                               1  Once
+                               2  Other
+                               8  Don't know
+                           (m) 9  Missing
+XF118C                 Question for female condom                       437    1    N    I    1    0   No   No
+  (XF118C_FRA)           Question pour condom féminin                   
+                               1  Une fois
+                               2  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118C_VS2)           Question for female condom                     
+                               1  Once
+                               2  Other
+                               8  Don't know
+                           (m) 9  Missing
+XF118D                 Question for IUCD                                438    1    N    I    1    0   No   No
+  (XF118D_FRA)           Question pour DIU                              
+                               1  Verifier le fil
+                               2  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118D_VS1)           Question for IUCD                              
+                               1  Check string
+                               2  Other
+                               8  Don't know
+                           (m) 9  Missing
+XF118E                 Question for Progestin injectable (Depo, 2-3 mo  439    1    N    I    1    0   No   No
+  (XF118E_FRA)           Question pour Progestin injectable (Depo, 2-3 m
+                               1  2-3 mois
+                               2  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118E_VS1)           Question for Progestin injectable (Depo, 2-3 mo
+                               1  2-3 months
+                               2  Other
+                               8  Don't know
+                           (m) 9  Missing
+XF118F                 Question for monthly injectable                  440    1    N    I    1    0   No   No
+  (XF118F_FRA)           Question pour injectable mensuel               
+                               1  1 mois
+                               2  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118F_VS1)           Question for monthly injectable                
+                               1  One month
+                               2  Other
+                               8  Don't know
+                           (m) 9  Missing
+XF118G                 Question for Implant                             441    1    N    I    1    0   No   No
+  (XF118G_FRA)           Question pour Implant                          
+                               1  3-7 ans
+                               2  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118G_VS2)           Question for Implant                           
+                               1  3-7 years
+                               2  Other
+                               8  Don't know
+                           (m) 9  Missing
+XF118H                 Question for rhythm                              442    6   AN    I    1    0   No   No
+  (XF118H_FRA)           Question pour methode naturelle (rhythme/contin
+                               A       Elevation de la temperature corporelle
+                               B       Glaire cervical
+                               C       12 ou 16ème jours du cycle menstruel
+                               D       Jours des perles blanches du collier/ 8 au 19ème jours du cycle menstru
+                               X       Autre
+                               Z       Ne sait pas
+                               ?       Manquant
+  (XF118H_VS1)           Question for rhythm                            
+                               A       Body temperature rises
+                               B       Mucus in vagina
+                               C       Days 12-16 of menstrual cycle
+                               D       White bead days/ days 8-19 of menstrual cycle
+                               X       Other
+                               Z       Don't know
+                               ?       Missing
+XF118I                 Question for vasectomy (male sterilization)      448    1    N    I    1    0   No   No
+  (XF118I_FRA)           Question pour vasectomy (sterilization masculin
+                               1  Oui, absolument
+                               2  Oui, faible risque seulement
+                               3  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118I_VS1)           Question for vasectomy (male sterilization)    
+                               1  Yes, definitely can make woman pregnant
+                               2  Yes, only slight risk of making a woman pregnant
+                               3  No, cannot make a woman pregnant
+                               8  Don't know
+                           (m) 9  Missing
+XF118J                 Question for tubal ligation (female sterilizati  449    1    N    I    1    0   No   No
+  (XF118J_FRA)           Question poue ligature des trompes (sterilizati
+                               1  Oui, absolument
+                               2  Oui, fiable risque seulement
+                               3  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118J_VS1)           Question for tubal ligation (female sterilizati
+                               1  Yes, definitely can get pregnant
+                               2  Yes, only slight risk of getting pregnant
+                               3  No, cannot become pregnant
+                               8  Don't know
+                           (m) 9  Missing
+XF118K                 Question for LAM                                 450    1    N    I    1    0   No   No
+  (XF118K_FRA)           Question pour MAMA                             
+                               1  Oui
+                               2  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF118K_VS1)           Question for LAM                               
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+XF119                  Method protects against STIs/HIV                 451    1    N    I    1    0   No   No
+  (XF119_FRA)            Méthode protège contre les IST / VIH           
+                               1  Oui
+                               2  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XF119_VS1)            Method protects against STIs/HIV               
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+X201                   Time waited for provider (minutes)               452    3    N    I    1    0   No   No
+  (X201_FRA)             Temps d'attente pour le prestataire (minutes)  
+                               1:600  
+                               0      Vu prestataire immediatement
+                               998    NSP
+                           (m) 999    Manquant
+  (X201_VS1)             Time waited for provider (minutes)             
+                               1:600  
+                               0      Saw provider immediately
+                               998    Don't know
+                           (m) 999    Missing
+X202                   Problems encountered today                       455    1    N    I   11    0   No   No
+  (X202_FRA)             Problèmes rencontrée par le client aujourd'hui 
+                               1  Grand
+                               2  Mineur
+                               3  Pas de problèmes
+                               8  NSP
+                           (m) 9  Manquant
+  (X202_VS1)             Problems encountered today                     
+                               1  Major
+                               2  Minor
+                               3  No problem
+                               8  Don't know
+                           (m) 9  Missing
+X203                   Part of prepayment plan                          466    1    N    I    1    0   No   No
+  (X203_FRA)             Assurance ou plan de remboursement anticipé    
+                               1  Oui
+                               2  Non
+                               8  NSP
+                           (m) 9  Manquant
+  (X203_VS1)             Part of prepayment plan                        
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+X204                   Fees for services for visit                      467    1    N    I    1    0   No   No
+  (X204_FRA)             Honoraires pour les services de visite         
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (X204_VS1)             Fees for services for visit                    
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+X205                   Total fees (Gourdes)                             468    6    N    I    1    0   No   No
+  (X205_FRA)             Montant totale pour les services ou traitements
+                               1:999990  
+                               999998    NSP
+                           (m) 999999    Manquant
+  (X205_VS1)             Total fees (Gourdes)                           
+                               1:999990  
+                               999998    Don't know
+                           (m) 999999    Missing
+X206                   Nearest facility to home                         474    1    N    I    1    0   No   No
+  (X206_FRA)             L'établissement de santé le plus proche de chez
+                               1  Oui
+                               2  Non
+                               8  NSP
+                           (m) 9  Manquant
+  (X206_VS1)             Nearest facility to home                       
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+X207                   Main reason didn't go to nearest facility        475    2    N    I    1    0   No   No
+  (X207_FRA)             Principale raison ne vont pas à l'établissement
+                               1   Heure de fonctionnement pas commode
+                               2   Mauvaise reputation
+                               3   N'aime pas le personnel
+                               4   Pas de médicaments
+                               5   Préféré rester anonyme
+                               6   C'est plus cher
+                               7   A été referré
+                               96  Autre
+                               98  NSP
+                           (m) 99  Manquant
+  (X207_VS1)             Main reason didn't go to nearest facility      
+                               1   Inconvenient operating hours
+                               2   Bad reputation
+                               3   Don't like personnel
+                               4   No medicine
+                               5   Prefers to remain anonymous
+                               6   It is more expensive
+                               7   Was referred
+                               96  Other
+                               98  Don't know
+                           (m) 99  Missing
+X208                   Opinion of services given today                  477    1    N    I    1    0   No   No
+  (X208_FRA)             Opinion sur les services rendus aujourd'hui    
+                               1  Je suis très satisfaite des sevices reçus
+                               2  Je suis plus ou moins satisfaite des services reçus
+                               3  Je ne suis pas satisfaite des services reçus
+                           (m) 9  Manquant
+  (X208_VS1)             Opinion of services given today                
+                               1  Very satisfied
+                               2  More or less satisfied
+                               3  Not satisfied
+                           (m) 9  Missing
+X209                   Would recommend to friend/family member          478    1    N    I    1    0   No   No
+  (X209_FRA)             Pouvez recommandez à un ami/ membre de la famil
+                               1  Oui
+                               2  Non
+                               8  NSP
+                           (m) 9  Manquant
+  (X209_VS1)             Would recommend to friend/family member        
+                               1  Yes
+                               2  No
+                               8  DK
+                           (m) 9  Missing
+X301                   Relationship to child                            479    1    N    I    1    0   No   No
+  (X301_FRA)             Lien avec l'enfant                             
+                               1  Mère
+                               2  Père
+                               3  Frère/soeur
+                               4  Tante ou oncle
+                               5  Grand-mère/ grand-père
+                               6  Autre (specifier)
+                           (m) 9  Manquant
+                          (na)    Pas applicable
+  (X301_VS1)             Relationship to child                          
+                               1  Mother
+                               2  Father
+                               3  Sibling
+                               4  Aunt/Uncle
+                               5  Grand mom/ grand dad
+                               6  Other (specify)
+                           (m) 9  Missing
+                          (na)    Pas applicable
+X302                   Respondent's age                                 480    2    N    I    1    0   No   No
+  (X302_FRA)             Age de la cliente                              
+                               11:95  
+                               98     NSP
+                           (m) 99     Manquant
+  (X302_VS1)             Respondent's age                               
+                               11:95  
+                               98     Don't know
+                           (m) 99     Missing
+X303                   Ever attended school                             482    1    N    I    1    0   No   No
+  (X303_FRA)             Fréquenté l'école (formelle)                   
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (X303_VS1)             Ever attended school                           
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+X304                   Highest level attended                           483    1    N    I    1    0   No   No
+  (X304_FRA)             Le plus haut niveau scolaire atteint           
+                               1  Primaire
+                               2  Post-primaire / tecnique
+                               3  Secondaire
+                               4  Superieur / universitaire
+                           (m) 9  Manquant
+  (X304_VS1)             Highest level attended                         
+                               1  Primary
+                               2  Post-primary/ vocational
+                               3  Secondary
+                               4  College (middle level)/University
+                           (m) 9  Missing
+X305                   Literate                                         484    1    N    I    1    0   No   No
+  (X305_FRA)             Sait lire ou écrire                            
+                               1  Oui, lire seulement
+                               2  Oui, lire et ecrire
+                               3  Non
+                           (m) 9  Manquant
+  (X305_VS1)             Literate                                       
+                               1  Yes, read and write
+                               2  Yes, read only
+                               3  No
+                           (m) 9  Missing
+X306H                  End interview hour                               485    2    N    I    1    0   No   No
+  (X306H_FRA)            L'heure de la fin de l'interview               
+                               6:22  
+  (X306H_VS1)            End INTERVIew Hour                             
+                               6:22  
+X306M                  End interview minutes                            487    2    N    I    1    0   No   No
+  (X306M_FRA)            Minute de la fin de l'interview                
+                               0:59  
+  (X306M_VS1)            End INTERVIew Minutes                          
+                               0:59  
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------

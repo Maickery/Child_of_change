@@ -1,0 +1,2868 @@
+﻿[Dictionary]
+Version=CSPro 6.3
+Label=HTSC7AFLSP
+Name=HTSC7AFLSP_DICT
+RecordTypeStart=13
+RecordTypeLen=2
+Positions=Absolute
+ZeroFill=No
+DecimalChar=Yes
+
+[Languages]
+
+[Level]
+Label=Inventory questionnaire
+Name=INVENTORY
+
+[IdItems]
+
+[Item]
+Label=Facility identification
+Name=FACIL
+Start=1
+Len=5
+
+[Item]
+Label=Provider serial number
+Name=PROVNO
+Start=6
+Len=2
+
+[Item]
+Label=Client type
+Name=CLTYPE
+Start=8
+Len=2
+DataType=Alpha
+
+[ValueSet]
+Label=Client type
+Name=CLTYPE_VS1
+Value='AN';ANC client
+Value='FP';Family planning client
+Value='SC';Sick child client
+
+[Item]
+Label=Client number
+Name=CLNO
+Start=10
+Len=3
+
+[ValueSet]
+Label=Client number
+Name=CLNO_VS1
+Value=1:347
+
+[Record]
+Label=RECORD1
+Name=RECORD1
+RecordTypeValue='SC'
+RecordLen=306
+
+[Item]
+Label=Provider category
+Name=CPROVCAT
+Start=15
+Len=2
+
+[ValueSet]
+Label=Qualification
+Name=CPROVCAT_FRA
+Value=1;Médecin géneraliste
+Value=2;Médecin specialiste
+Value=3;Technicien de laboratoire
+Value=4;Auxiliaire de laboratoire (y compris aide)
+Value=5;Technicien de radiologie
+Value=6;Technicien en imagerie medicale
+Value=7;Hygienist dentaire
+Value=8;Infirmier(e)
+Value=9;Infirmier(e) specialiste
+Value=10;Auxiliaire infirmier(e)
+Value=11;Sage femme
+Value=12;Pharmacien
+Value=13;Auxiliaire en pharmacie
+Value=14;Autres agents de santé communautaire
+Value=96;Autre (specifier)
+
+[ValueSet]
+Label=Provider category
+Name=CPROVCAT_VS1
+Value=1;General medical doctor
+Value=2;Specialist medical doctor
+Value=3;Lab technician
+Value=4;Auxiliary lab technician
+Value=5;Radiology technician
+Value=6;Technician in medical images
+Value=7;Dental hygienist
+Value=8;Nurse
+Value=9;Specialist nurse
+Value=10;Auxiliary nurse
+Value=11;Midwife
+Value=12;Pharmacist
+Value=13;Auxiliary pharmacist
+Value=14;Other community health workers
+Value=96;Other
+
+[Item]
+Label=Provider sex
+Name=CPROVSEX
+Start=17
+Len=1
+
+[ValueSet]
+Label=Sexe du prestataire
+Name=CPROVSEX_FRA
+Value=1;Masculin
+Value=2;Féminin
+
+[ValueSet]
+Label=Provider sex
+Name=CPROVSEX_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Client day
+Name=CDAY
+Start=18
+Len=2
+
+[ValueSet]
+Label=Client jour
+Name=CDAY_FRA
+Value=1:31
+
+[ValueSet]
+Label=Client day
+Name=CDAY_VS1
+Value=1:31
+
+[Item]
+Label=Client month
+Name=CMONTH
+Start=20
+Len=2
+
+[ValueSet]
+Label=Client mois
+Name=CMONTH_FRA
+Value=1;Janvier
+Value=2;Février
+Value=3;Mars
+Value=4;Avril
+Value=5;Mai
+Value=6;Juin
+Value=7;Juillet
+Value=8;Août
+Value=9;Septembre
+Value=10;Octobre
+Value=11;Novembre
+Value=12;Décembre
+
+[ValueSet]
+Label=Client month
+Name=CMONTH_VS1
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+
+[Item]
+Label=Client year
+Name=CYEAR
+Start=22
+Len=4
+
+[ValueSet]
+Label=Client année
+Name=CYEAR_FRA
+Value=2017:2018
+
+[ValueSet]
+Label=Client year
+Name=CYEAR_VS1
+Value=2017:2018
+
+[Item]
+Label=Observer code
+Name=OINTV
+Start=26
+Len=4
+
+[ValueSet]
+Label=Code du observateur
+Name=OINTV_FRA
+Value=1000
+Value=1001
+Value=1002
+Value=1003
+Value=1004
+Value=1100
+Value=1101
+Value=1102
+Value=1103
+Value=1104
+Value=1200
+Value=1201
+Value=1202
+Value=1203
+Value=1204
+Value=1205
+Value=1300
+Value=1301
+Value=1302
+Value=1303
+Value=1304
+Value=1305
+Value=1400
+Value=1401
+Value=1402
+Value=1403
+Value=1404
+Value=1405
+Value=1500
+Value=1501
+Value=1502
+Value=1503
+Value=1504
+Value=1600
+Value=1601
+Value=1602
+Value=1603
+Value=1604
+Value=1700
+Value=1701
+Value=1702
+Value=1703
+Value=1704
+Value=1800
+Value=1801
+Value=1802
+Value=1803
+Value=1804
+Value=1900
+Value=1901
+Value=1902
+Value=1903
+Value=1904
+Value=2000
+Value=2001
+Value=2002
+Value=2003
+Value=2004
+Value=2100
+Value=2101
+Value=2102
+Value=2103
+Value=2104
+Value=2200
+Value=2201
+Value=2202
+Value=2203
+Value=2204
+Value=2300
+Value=2301
+Value=2302
+Value=2303
+Value=2304
+Value=2400
+Value=2401
+Value=2402
+Value=2403
+Value=2404
+
+[ValueSet]
+Label=Observer code
+Name=OINTV_VS1
+Value=1000
+Value=1001
+Value=1002
+Value=1003
+Value=1004
+Value=1100
+Value=1101
+Value=1102
+Value=1103
+Value=1104
+Value=1200
+Value=1201
+Value=1202
+Value=1203
+Value=1204
+Value=1300
+Value=1301
+Value=1302
+Value=1303
+Value=1304
+Value=1400
+Value=1401
+Value=1402
+Value=1403
+Value=1404
+Value=1500
+Value=1501
+Value=1502
+Value=1503
+Value=1504
+Value=1600
+Value=1601
+Value=1602
+Value=1603
+Value=1604
+Value=1700
+Value=1701
+Value=1702
+Value=1703
+Value=1704
+Value=1800
+Value=1801
+Value=1802
+Value=1803
+Value=1804
+Value=1900
+Value=1901
+Value=1902
+Value=1903
+Value=1904
+Value=2000
+Value=2001
+Value=2002
+Value=2003
+Value=2004
+Value=2100
+Value=2101
+Value=2102
+Value=2103
+Value=2104
+Value=2200
+Value=2201
+Value=2202
+Value=2203
+Value=2204
+Value=2300
+Value=2301
+Value=2302
+Value=2303
+Value=2304
+Value=2400
+Value=2401
+Value=2402
+Value=2403
+Value=2404
+
+[Item]
+Label=Provider agreement
+Name=C100
+Start=30
+Len=1
+
+[ValueSet]
+Label=Permission du prestataire
+Name=C100_FRA
+Value=1;Oui
+Value=2;Non
+
+[ValueSet]
+Label=Provider agreement
+Name=C100_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Client agreement
+Name=C101
+Start=31
+Len=1
+
+[ValueSet]
+Label=Permission de la cliente
+Name=C101_FRA
+Value=1;Oui
+Value=2;Non
+
+[ValueSet]
+Label=Client agreement
+Name=C101_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Hour begin
+Name=C102H
+Start=32
+Len=2
+
+[ValueSet]
+Label=Hour begin
+Name=C102H_FRA
+Value=5:23
+
+[ValueSet]
+Label=Hour begin
+Name=C102H_VS1
+Value=5:23
+
+[Item]
+Label=Minute begin
+Name=C102M
+Start=34
+Len=2
+
+[ValueSet]
+Label=Minute begin
+Name=C102M_FRA
+Value=0:59
+
+[ValueSet]
+Label=Minute begin
+Name=C102M_VS1
+Value=0:59
+
+[Item]
+Label=First observation for this provider of this type of client
+Name=C103
+Start=36
+Len=1
+
+[ValueSet]
+Label=Ce-est la première observation pour ce prestataire de ce service
+Name=C103_FRA
+Value=1;Oui, la première observation pour ce prestataire
+Value=2;Non, ce n'est pas la première observation pour ce prestataire
+
+[ValueSet]
+Label=First observation for this provider of this type of client
+Name=C103_VS1
+Value=1;Yes, first observation of this type of client for this provider
+Value=2;No, not first of this type for this provider
+
+[Item]
+Label=instruction-1
+Name=OINS1
+Start=37
+Len=1
+
+[ValueSet]
+Label=instruction-1
+Name=OINS1_FRA
+Value=1;Entrer les données d'observation de questionnaire papier
+Value=2;Allez a l'interview des clientes à la sortie
+
+[ValueSet]
+Label=instruction-1
+Name=OINS1_VS1
+Value=1;Enter Observation data from paper questionnaire
+Value=2;Goto Exit Interview
+
+[Item]
+Label=instruction-2
+Name=OINS2
+Start=38
+Len=1
+
+[Item]
+Label=Client weight
+Name=CLIENTWT
+Start=39
+Len=8
+
+[Item]
+Label=Sex of child
+Name=OC104
+Start=47
+Len=1
+
+[ValueSet]
+Label=Le sexe de l' enfant
+Name=OC104_FRA
+Value=1;Masculin
+Value=2;FémInin
+
+[ValueSet]
+Label=Sex of child
+Name=OC104_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Client history
+Name=OC105
+Start=48
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Histoire du client
+Name=OC105_FRA
+Value='A    ';Fièvre
+Value='B    ';Toux ou respiration difficile (ex. une respiration rapide ou tirage sous-costal)
+Value='C    ';Diarrhée
+Value='D    ';Douleur ou écoulement à l'oreille
+Value='Y    ';Aucun des symptômes ci-dessus
+Value='?    ';Manquant
+
+[ValueSet]
+Label=Client history
+Name=OC105_VS1
+Value='A    ';Fever
+Value='B    ';Cough or difficult breathing (fast breathing or chest in-drawing)
+Value='C    ';Diarrhea
+Value='D    ';Ear pain or discharge
+Value='Y    ';None of the above
+Value='?    ';Missing
+
+[Item]
+Label=General danger signs
+Name=OC106
+Start=53
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=Signes généraux de danger
+Name=OC106_FRA
+Value='A   ';Enfant est incapable de boire ou de téter
+Value='B   ';Enfant vomit tout
+Value='C   ';Enfant a eu des convulsions avec cette maladie
+Value='Y   ';Aucun des signes ci-dessus
+Value='?   ';Manquant
+
+[ValueSet]
+Label=General danger signs
+Name=OC106_VS1
+Value='A   ';Child is unable to drink or breastfeed
+Value='B   ';Child vomits everything
+Value='C   ';Child has had convulsions with this illness
+Value='Y   ';None of the above
+Value='?   ';Missing
+
+[Item]
+Label=Symptomatic HIV suspected
+Name=OC107
+Start=57
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=VIH symptomatique suspectée
+Name=OC107_FRA
+Value='A   ';Le statut sérologique de la mère
+Value='B   ';Une tuberculose chez l'un des parents dans les 5 dernières années
+Value='C   ';Deux ou plusieurs épisodes de diarhée chez l'enfant, durant chacune 14 jours ou plus
+Value='Y   ';Aucune des choses ci-dessus
+Value='?   ';Manquant
+
+[ValueSet]
+Label=Symptomatic HIV suspected
+Name=OC107_VS1
+Value='A   ';Asked about mother's HIV status
+Value='B   ';Asked aboaut TB infection in any parent in last 5 years
+Value='C   ';Asked about 2 or more episodes of diarrhea in child each lasting 14 days or more
+Value='Y   ';None of the above
+Value='?   ';Missing
+
+[Item]
+Label=Physical exam
+Name=OC108
+Start=61
+Len=18
+DataType=Alpha
+
+[ValueSet]
+Label=Examens physiques
+Name=OC108_FRA
+Value='A                 ';Pris la température de l'enfant en utilisant un thermomètre
+Value='B                 ';Touché l'enfant pour sentir la chaleur du corps/fièvre
+Value='C                 ';Compté le rythme respiratoire
+Value='D                 ';Ausculté l'enfant (appliquer le stéthoscope sur la poitrine) ou compter les pulsations
+Value='E                 ';Examiné la peau pour voir s'il y a déshydratation ou non (ex. pincer la peau de l'abdomen)
+Value='F                 ';Vérifié la pâleur des paumes
+Value='G                 ';Vérifié la pâleur de la conjonctive ou l'intérieur de la bouche
+Value='H                 ';Vérifié l'interiéur de la bouche et la gorge (également pour la candidose buccale)
+Value='I                 ';Vérifié la raideur de nuque
+Value='J                 ';Regardé dans l'oreille de l'enfant
+Value='K                 ';Vérifiér derrière l'oreille de l'enfant
+Value='L                 ';Déshabillé l'enfant pour l'examiner (des épaules aux chevilles)
+Value='M                 ';Pressé les deux pieds pour vérifier la présence d'oedème
+Value='N                 ';Pesé l'enfant
+Value='O                 ';Enregistré le poids sur la courbe de croissance
+Value='P                 ';Comparé le poids de l'enfant au poids de référence
+Value='Q                 ';Vérifié l'existance des ganglions lymphatiques dans 2 ou plusieurs des sites suivants: cou, les aisselles, l'aine
+Value='Y                 ';Aucun des examens ci-dessus
+Value='?                 ';Manquant
+
+[ValueSet]
+Label=Physical exam
+Name=OC108_VS1
+Value='A                 ';Took child's temperature with thermometer
+Value='B                 ';Felt the child for fever or body hotness
+Value='C                 ';Counted respiration (breaths) for 60 seconds
+Value='D                 ';Auscultated child (listen to chest with stethoscope) or count pulse
+Value='E                 ';Checked skin turgor for dehydration (pinch abdominal skin)
+Value='F                 ';Checked for pallor by looking at palms
+Value='G                 ';Checked for pallor by looking at conjunctiva
+Value='H                 ';Looked in child's mouth
+Value='I                 ';Checked for neck stiffness
+Value='J                 ';Looked in child's ear
+Value='K                 ';Felt behind child's ear
+Value='L                 ';Undressed child to examine (up to shoulders/ down t ankles
+Value='M                 ';Pressed both feet to check for oedema
+Value='N                 ';Weighed child
+Value='O                 ';Plotted weight on growth chart
+Value='P                 ';Comparé le poids de l'enfant au poids de référence
+Value='Q                 ';Checked for enlarged lymph nodes in 2 or more of following sites: neck, axillae, groin
+Value='Y                 ';None of the above
+Value='?                 ';Missing
+
+[Item]
+Label=Other assessments
+Name=OC109
+Start=79
+Len=11
+DataType=Alpha
+
+[ValueSet]
+Label=Autres examens
+Name=OC109_FRA
+Value='A          ';Offert à l'enfant quelque chose à boire ou demandé à la mère de mettre l'enfant au sein
+Value='B          ';Interrogé sur les habitudes alimentaires ou pratiques normales lorsque l'enfant n'est pas malade
+Value='C          ';Interrogé sur les habitudes d'allaitement ou pratiques normales lorsque l'enfant n'est pas malade
+Value='D          ';Interrogé sur des pratiques alimentaires ou d'allaitement de l'enfant pendant cette maladie
+Value='E          ';Mentionné le poids ou la croissance de l'enfant à l'accompagnateur, ou discuté la courbe de croissance
+Value='F          ';Regardé la carte de vaccination de l'enfant ou interroger l'accompagnateur au sujet des vaccinations
+Value='G          ';Demandé si l'enfant a reçu de la vitamine A durant les 6 derniers mois
+Value='H          ';Regardé la carte de santé de l'enfant avant de commencer la consultation, ou tout en reassemblant les informations de l'accompagnateur, ou en examinant l'enfant
+Value='I          ';A écrit sur la carte santé de l'enfant
+Value='J          ';Demandé si l'enfant a reçu un médicament de déparasitage dans les 6 derniers mois
+Value='Y          ';Aucun des examens ci-dessus
+Value='?          ';Manquant
+
+[ValueSet]
+Label=Other assessments
+Name=OC109_VS1
+Value='A          ';Offered child something to eat or asked mother to put child to breast (Mark as yes if you observe child drinks or breastfeeds during visit)
+Value='B          ';Asked about normal FEEDING habits or practices when chld not ill
+Value='C          ';Asked about normal BREASTFEEDING habits or practices when child not ill
+Value='D          ';Asked about feeding or breastfeeding habits for child during this illness
+Value='E          ';Mentioned the child's weight or growth to caretaker, or discussed growth chart
+Value='F          ';Looked at child's immunisatin card or asked caretaker about child vaccination history
+Value='G          ';Asked if child received Vitamin A within past 6 months
+Value='H          ';Looked at child's health card before consult, while collecting information or while examining child
+Value='I          ';Wrote on the child's health card
+Value='J          ';Asked if child received any de-worming medication in last 6 months
+Value='Y          ';None of the above
+Value='?          ';Missing
+
+[Item]
+Label=Counseling of caretaker
+Name=OC110
+Start=90
+Len=7
+DataType=Alpha
+
+[ValueSet]
+Label=Conseils a l'accompagnateur
+Name=OC110_FRA
+Value='A      ';Fourni des informations générales sur l'alimentation ou l'allaitement de l'enfant même lorsqu'il n'est pas malade
+Value='B      ';Dit à l'accompagnateur de donner des liquides supplémentaires à l'enfant pendant cette maladie
+Value='C      ';Dit à l'accompagnateur de continuer d'alimenter l'enfant pendant cette maladie
+Value='D      ';Dit à l'accompagnateur que l'enfant a telle maladie
+Value='E      ';Décrit les signes et/ou les symptômes pour lesquels l'enfant devrait être immédiatement ramené à l'institution
+Value='F      ';Utilisé une aide visuelle pour éduquer l'accompagnateur
+Value='Y      ';Aucun des conseils ci-dessus
+Value='?      ';Manquant
+
+[ValueSet]
+Label=Counseling of caretaker
+Name=OC110_VS1
+Value='A      ';Provided general information about feeding or breastfeeding the child even when not sick
+Value='B      ';Told caretaker to give extra fluids to child during this illness
+Value='C      ';Told caretaker to continue feeding child during this illness
+Value='D      ';Told caretaker what illness(es) child has
+Value='E      ';Described signs and/or symptoms in the child which require an immediate return to clinic for child
+Value='F      ';Used a visual aid(s) to educate caretaker
+Value='Y      ';None of the above
+Value='?      ';Missing
+
+[Item]
+Label=Additional counseling
+Name=OC111
+Start=97
+Len=6
+DataType=Alpha
+
+[ValueSet]
+Label=Des conseils supplementaires
+Name=OC111_FRA
+Value='A     ';Prescrit ou fourni des médicaments par voie orale pendant ou après la consultation
+Value='B     ';Expliqué la façon d'administrer un traitement oral
+Value='C     ';Demandé l'accompagnateur de répéter les instructions pour l'administration de médicaments à la maison
+Value='D     ';A donné la première dose du traitement oral
+Value='E     ';Discuté de la visite de suivi de l'enfant malade
+Value='Y     ';Aucun des conseils ci-dessus
+Value='?     ';Manquant
+
+[ValueSet]
+Label=Additional counseling
+Name=OC111_VS1
+Value='A     ';Prescribed or provided oral medication during or after consult
+Value='B     ';Explained how to administer oral treatment(s)
+Value='C     ';Asked caretaker to repeat instructions for giving medication(s) at home
+Value='D     ';Gave first dose of oral treatment(s)
+Value='E     ';Discussed follow-up visit for sick child
+Value='Y     ';None of the above
+Value='?     ';Missing
+
+[Item]
+Label=Referrals and admissions
+Name=OC112
+Start=103
+Len=8
+DataType=Alpha
+
+[ValueSet]
+Label=Références et hospitalisation
+Name=OC112_FRA
+Value='A       ';Recommandé que l'enfant soit hospitalisé urgemment (c.à.d. admis a l'hôpital ou référé à un autre hôpital)
+Value='B       ';Référé l'enfant à un autre prestataire au sein de l'institution pour d'autres soins
+Value='C       ';Référé l'enfant pour un test en laboratoire au sein de l'institution ou en dehors de l'institution
+Value='D       ';Expliqué la raison de la référence
+Value='E       ';A donné une fiche de référence à l'accompagnateur
+Value='F       ';Expliqué où (ou chez qui) aller
+Value='G       ';Le prestataire a expliqué quand aller pour la référence
+Value='Y       ';Rien de ce qui est dit ci-dessus
+Value='?       ';Manquant
+
+[ValueSet]
+Label=Referrals and admissions
+Name=OC112_VS1
+Value='A       ';Recommended child be hospitalized urgently (admitted to the hospital or referred to another hospital)
+Value='B       ';Referred child to another provider within facility for other care
+Value='C       ';Referred child for lab test in or outside facility
+Value='D       ';Explained the reason for (any) referral
+Value='E       ';Gave referral slip to caretaker
+Value='F       ';Explained where (or to whom) to go
+Value='G       ';Provider explained when to go for referral
+Value='Y       ';None of the above
+Value='?       ';Missing
+
+[Item]
+Label=Outcome of consultation
+Name=OC113
+Start=111
+Len=1
+
+[ValueSet]
+Label=Résultat de la consultation
+Name=OC113_FRA
+Value=1;Traité et renvoyé chez lui
+Value=2;Enfant référé chez prestataire, même institution
+Value=3;Enfant admis, même institution
+Value=4;Enfant envoyé au laboratoire
+Value=5;Enfant référé à une autre institution
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Outcome of consultation
+Name=OC113_VS1
+Value=1;Treated and sent home
+Value=2;Child referred to provider same facility
+Value=3;Child admitted to same facilty
+Value=4;Child sent to lab
+Value=5;Child referred to other facilty
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Dehydration dx
+Name=OC201
+Start=112
+Len=1
+
+[ValueSet]
+Label=Deshydratation (diagnostic)
+Name=OC201_FRA
+Value=1;Deshydratation severe
+Value=2;Deshydratation moderée
+Value=3;Deshydratation legere
+Value=4;Aucun des symptomes ci-dessus/Pas deshydratation
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Dehydration dx
+Name=OC201_VS1
+Value=1;Severe dehydration
+Value=2;Moderate dehydration
+Value=3;Mild dehydration
+Value=4;None of the above/No dehydration
+Value=9;Manquant
+Name=MISSING,Special
+
+[Item]
+Label=Respiratory dx
+Name=OC202
+Start=113
+Len=6
+DataType=Alpha
+
+[ValueSet]
+Label=Système respiratoire (diagnostic)
+Name=OC202_FRA
+Value='A     ';Pneumonie/ broncho-pneumonie
+Value='B     ';Spasme bronchique/asthme
+Value='C     ';Infection respiratoire superieure (IRS)/Infection respiratoire aigue (IRA)
+Value='D     ';Maladie respiratoire, diagnostic incertain
+Value='E     ';Toux, diagnostic incertain
+Value='Y     ';Aucun des diagnostics ci-dessus
+Value='?     ';Manquant
+
+[ValueSet]
+Label=Respiratory dx
+Name=OC202_VS1
+Value='A     ';Pneumonia/ bronchopneumonia
+Value='B     ';Bronchial spasm/ asthma
+Value='C     ';Upper respiratory infection (URI)/Acute respiratory infection (ARI)
+Value='D     ';Respiratory illness, diagnosis uncertain
+Value='E     ';Cough, diagnosis uncertain
+Value='Y     ';None of the above
+Value='?     ';Missing
+
+[Item]
+Label=Digestive system dx
+Name=OC203
+Start=119
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Système digestif / intestinal (diagnostic)
+Name=OC203_FRA
+Value='A    ';Diarrhée
+Value='B    ';Dysenterie
+Value='C    ';Amibiase
+Value='D    ';Parasitose
+Value='X    ';Autres diagnostics digestifs / intestinaux (precisez)
+Value='Y    ';Aucun des diagnostics ci-dessus
+Value='?    ';Manquant
+
+[ValueSet]
+Label=Digestive system dx
+Name=OC203_VS1
+Value='A    ';Diarrhea
+Value='B    ';Dysentery
+Value='C    ';Amebiasis
+Value='D    ';Worm
+Value='X    ';Other digestive/ intestinal (specify)
+Value='Y    ';None of the above
+Value='?    ';Missing
+
+[Item]
+Label=Malaria dx
+Name=OC204
+Start=124
+Len=1
+
+[ValueSet]
+Label=Malaria (diagnostic)
+Name=OC204_FRA
+Value=1;Malaria (diagnostic par symptomes)
+Value=2;Malaria (diagnostic par test microscopique)
+Value=3;Malaria (diagnostic par test Rapid)
+Value=4;Aucun des diagnostics ci-dessus
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Malaria dx
+Name=OC204_VS1
+Value=1;Malaria (clinical diagnosis)
+Value=2;Malaria (blood smear)
+Value=3;Malaria (rapid test)
+Value=4;None of the above
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Fever/ measles dx
+Name=OC205
+Start=125
+Len=1
+
+[ValueSet]
+Label=Fièvre/Rougeole (diagnostic)
+Name=OC205_FRA
+Value=1;Fièvre d'órigine inconnue
+Value=2;Rougeole sans complications
+Value=3;Rougeole avec complications (ex. bouche /yeux)
+Value=4;La fièvre typhoide
+Value=5;Infection urinaire
+Value=6;Septicémie
+Value=7;Méningite
+Value=8;Aucun des diagnostics ci-dessus
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Fever/ measles dx
+Name=OC205_VS1
+Value=1;Fever of unknown origin
+Value=2;Measles with no complications
+Value=3;Measles with complicatins (mouth/eye or severe)
+Value=4;Typhoid fever
+Value=5;Urine infection
+Value=6;Septicemia
+Value=7;Meningitis
+Value=8;None of the above
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Ear dx
+Name=OC206
+Start=126
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=L'oreille (diagnostic)
+Name=OC206_FRA
+Value='A    ';Mastoidite
+Value='B    ';Infection aigue de l'oreille
+Value='C    ';Infection chronique de l'oreille
+Value='X    ';Autre infection de l'oreille
+Value='Y    ';Aucun des diagnostics ci-dessus
+Value='?    ';Manquant
+
+[ValueSet]
+Label=Ear dx
+Name=OC206_VS1
+Value='A    ';Mastoiditis
+Value='B    ';Acute ear infection
+Value='C    ';Chronic ear infection
+Value='X    ';Other ear infection
+Value='Y    ';None of the above
+Value='?    ';Missing
+
+[Item]
+Label=Throat dx
+Name=OC207
+Start=131
+Len=1
+
+[ValueSet]
+Label=La gorge (diagnostic)
+Name=OC207_FRA
+Value=1;Endolorie/Pharyngite
+Value=2;Autre diagnostic pour gorge (specifiez)
+Value=3;Aucun des diagnostics ci-dessus
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Throat dx
+Name=OC207_VS1
+Value=1;Sore throat/Pharyngitis
+Value=2;Other throat diagnosis (specify)
+Value=3;None of the above
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Other dx
+Name=OC208
+Start=132
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Autre (diagnostic)
+Name=OC208_FRA
+Value='A    ';Abces
+Value='B    ';Conjuntivite bacterienne
+Value='C    ';Maladies de la peau
+Value='D    ';Anemie
+Value='X    ';Autre diagnostic (specifiez)
+Value='Y    ';Pas d'autre diagnostic
+Value='?    ';Manquant
+
+[ValueSet]
+Label=Other dx
+Name=OC208_VS1
+Value='A    ';Abces
+Value='B    ';Bacterial conjunctivitis
+Value='C    ';Diseases of the skin
+Value='D    ';Anemia
+Value='X    ';Other diagnosis (specify)
+Value='Y    ';No other diagnosis
+Value='?    ';Missing
+
+[Item]
+Label=Treatment prescribed
+Name=OC209
+Start=137
+Len=1
+
+[ValueSet]
+Label=Traitement prescrit
+Name=OC209_FRA
+Value=1;Oui
+Value=2;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Treatment prescribed
+Name=OC209_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=General treatment
+Name=OC210
+Start=138
+Len=14
+DataType=Alpha
+
+[ValueSet]
+Label=Traitement général
+Name=OC210_FRA
+Value='A             ';Injection Debenzathine penicilline
+Value='B             ';Injection d'autre antibiotique
+Value='C             ';Autre injection
+Value='D             ';Co-trimoxazole comprimes
+Value='E             ';Co-trimoxazole sirop
+Value='F             ';Capsules d'amoxicilline
+Value='G             ';Amoxicilline sirop
+Value='H             ';Autre antibiotique comprimes/sirop
+Value='I             ';Paracetamol
+Value='J             ';Autres antipyretiques
+Value='K             ';Zinc
+Value='L             ';Vitamines (autres que la vitamine A)
+Value='M             ';Sirops contre la toux/autres médicaments
+Value='Y             ';Aucun des traitement ci-dessus
+Value='?             ';Missing
+
+[ValueSet]
+Label=General treatment
+Name=OC210_VS1
+Value='A             ';Benzyl penicillin injection
+Value='B             ';Other antibiotic injection
+Value='C             ';Other injection
+Value='D             ';Co-trimoxazole tablets
+Value='E             ';Co-trimoxazole syrup
+Value='F             ';Amoxicillin capsules
+Value='G             ';Amoxicillin syrup
+Value='H             ';Other antibiotic tablet/ syrup
+Value='I             ';Paracetamol
+Value='J             ';Other fever-reducting medicine
+Value='K             ';Zinc
+Value='L             ';Vitamins (other than Vitamin A)
+Value='M             ';Cough syrups/ other medication
+Value='Y             ';None of the above
+Value='?             ';Missing
+
+[Item]
+Label=Respiratory tx
+Name=OC211
+Start=152
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Respiratoire  tx
+Name=OC211_FRA
+Value='A    ';Nebuliseur ou inhalateur
+Value='B    ';Bronchodilatateur injectable (ex. Adrenaline)
+Value='C    ';Bronchodilatateur oral
+Value='D    ';Oreille sechee par des applicateurs
+Value='Y    ';Aucun des traitements ci-dessus
+Value='?    ';Manquant
+
+[ValueSet]
+Label=Respiratory tx
+Name=OC211_VS1
+Value='A    ';Nebuliser or inhaler
+Value='B    ';Injectable bronchodilator (e.g., Adrenaline)
+Value='C    ';Oral bronchodilator
+Value='D    ';Dry ear by wicking
+Value='Y    ';None of the above
+Value='?    ';Missing
+
+[Item]
+Label=Malaria tx
+Name=OC212
+Start=157
+Len=8
+DataType=Alpha
+
+[ValueSet]
+Label=Malaria tx
+Name=OC212_FRA
+Value='A       ';Quinine injectable
+Value='B       ';Autre injectables antimalariques (ex. Fansidar)
+Value='C       ';Fansidar orale (Pyrimethamine sulfa)
+Value='D       ';Chloroquine oral
+Value='E       ';Primaquine oral
+Value='F       ';Mefloquine oral
+Value='G       ';Autre antimalarique oral
+Value='Y       ';Aucun de traitements ci-dessus
+Value='?       ';Manquant
+
+[ValueSet]
+Label=Malaria tx
+Name=OC212_VS1
+Value='A       ';Injectable quinine
+Value='B       ';Other injectable antimalarial (e.g. Fansidar)
+Value='C       ';Oral Fansidar (Pyrimethamine sulfa)
+Value='D       ';Oral Chloroquine
+Value='E       ';Oral Primaquine
+Value='F       ';Oral Mefloquine
+Value='G       ';Other oral antimalarial
+Value='Y       ';None of the above
+Value='?       ';Missing
+
+[Item]
+Label=Dehydration tx
+Name=OC213
+Start=165
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=Deshydratation tx
+Name=OC213_FRA
+Value='A   ';SRO maison (Plan A)
+Value='B   ';SRO initial dans l'institution (4 heures - plan B)
+Value='C   ';Serums intraveineux (Plan C)
+Value='Y   ';Aucun des traitements ci-dessus
+Value='?   ';Manquant
+
+[ValueSet]
+Label=Dehydration tx
+Name=OC213_VS1
+Value='A   ';Home ORT (Plan A)
+Value='B   ';Initial ORT in facility (4 hours - Plan B)
+Value='C   ';Intravenous fluids (Plan C)
+Value='Y   ';None of the above
+Value='?   ';Missing
+
+[Item]
+Label=Other tx/ advice
+Name=OC214
+Start=169
+Len=7
+DataType=Alpha
+
+[ValueSet]
+Label=Autre traitement & conseils
+Name=OC214_FRA
+Value='A      ';Vitamine A (peut aussi être pour l'immunisation)
+Value='B      ';Consommer des aliments solides
+Value='C      ';Prendre des liquides supplementaires
+Value='D      ';Prendre du lait maternel
+Value='E      ';Prescrit / donne comprimes vermifuges
+Value='X      ';Tout autre traitement
+Value='Y      ';Aucun des traitements ci-dessus
+Value='?      ';Manquant
+
+[ValueSet]
+Label=Other tx/ advice
+Name=OC214_VS1
+Value='A      ';Vitamin A (May also be for vaccination)
+Value='B      ';Feeding solid foods
+Value='C      ';Feeding extra liquids
+Value='D      ';Feeding breast milk
+Value='E      ';Prescribed/ gave deworming tablets
+Value='X      ';Any other treatment (specify)
+Value='Y      ';None of the above
+Value='?      ';Missing
+
+[Item]
+Label=First visit for child to facility
+Name=OC215
+Start=176
+Len=1
+
+[ValueSet]
+Label=Première visite pour enfant à l'établissement
+Name=OC215_FRA
+Value=1;Première visite
+Value=2;Suivi
+Value=8;Ne sait pas
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=First visit for child to facility
+Name=OC215_VS1
+Value=1;First visit
+Value=2;Follow-up
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child immunized during visit
+Name=OC216
+Start=177
+Len=1
+
+[ValueSet]
+Label=Enfant vacciné lors de la visite
+Name=OC216_FRA
+Value=1;Oui, a vacciné enfant
+Value=2;Oui, a reféré
+Value=3;Ne manque pas de vaccin a completé vaccinations
+Value=4;Vaccin non disponible
+Value=5;Enfant trop malade
+Value=6;Ce n'est pas le jour de la vaccination
+Value=7;N'a pas vérifié pour la vaccination
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child immunized during visit
+Name=OC216_VS1
+Value=1;Yes, vaccinated child
+Value=2;Yes, referred
+Value=3;Not due for or completed vaccination
+Value=4;Vaccine not available
+Value=5;Child too sick
+Value=6;Not day for vaccination
+Value=7;Did not check for vaccination
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Ending  hour
+Name=OC217H
+Start=178
+Len=2
+
+[ValueSet]
+Label=Heure de fin
+Name=OC217H_FRA
+Value=6:22
+
+[ValueSet]
+Label=Ending  hour
+Name=OC217H_VS1
+Value=6:22
+
+[Item]
+Label=Ending minute
+Name=OC217M
+Start=180
+Len=2
+
+[ValueSet]
+Label=Minute de fin
+Name=OC217M_FRA
+Value=0:59
+
+[ValueSet]
+Label=Ending minute
+Name=OC217M_VS1
+Value=0:59
+
+[Item]
+Label=Client Day
+Name=XCDAY
+Start=182
+Len=2
+
+[ValueSet]
+Label=Jour client
+Name=XCDAY_FRA
+Value=1:31
+
+[ValueSet]
+Label=Client Day
+Name=XCDAY_VS1
+Value=1:31
+
+[Item]
+Label=Client Month
+Name=XCMONTH
+Start=184
+Len=2
+
+[ValueSet]
+Label=Client Mois
+Name=XCMONTH_FRA
+Value=1;Janvier
+Value=2;Février
+Value=3;Mars
+Value=4;Avril
+Value=5;Mai
+Value=6;Juin
+Value=7;Juillet
+Value=8;Août
+Value=9;Septembre
+Value=10;Octobre
+Value=11;Novembre
+Value=12;Décembre
+
+[ValueSet]
+Label=Client Month
+Name=XCMONTH_VS1
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+
+[Item]
+Label=Client Year
+Name=XCYEAR
+Start=186
+Len=4
+
+[ValueSet]
+Label=Client Année
+Name=XCYEAR_FRA
+Value=2017:2018
+
+[ValueSet]
+Label=Client Year
+Name=XCYEAR_VS1
+Value=2017:2018
+
+[Item]
+Label=Interviewer code
+Name=XCINTV
+Start=190
+Len=4
+
+[ValueSet]
+Label=Code du enqueteur
+Name=XCINTV_FRA
+Value=1000
+Value=1001
+Value=1002
+Value=1003
+Value=1004
+Value=1100
+Value=1101
+Value=1102
+Value=1103
+Value=1104
+Value=1200
+Value=1201
+Value=1202
+Value=1203
+Value=1204
+Value=1205
+Value=1300
+Value=1301
+Value=1302
+Value=1303
+Value=1304
+Value=1305
+Value=1400
+Value=1401
+Value=1402
+Value=1403
+Value=1404
+Value=1405
+Value=1500
+Value=1501
+Value=1502
+Value=1503
+Value=1504
+Value=1600
+Value=1601
+Value=1602
+Value=1603
+Value=1604
+Value=1700
+Value=1701
+Value=1702
+Value=1703
+Value=1704
+Value=1800
+Value=1801
+Value=1802
+Value=1803
+Value=1804
+Value=1900
+Value=1901
+Value=1902
+Value=1903
+Value=1904
+Value=2000
+Value=2001
+Value=2002
+Value=2003
+Value=2004
+Value=2100
+Value=2101
+Value=2102
+Value=2103
+Value=2104
+Value=2200
+Value=2201
+Value=2202
+Value=2203
+Value=2204
+Value=2300
+Value=2301
+Value=2302
+Value=2303
+Value=2304
+Value=2400
+Value=2401
+Value=2402
+Value=2403
+Value=2404
+
+[ValueSet]
+Label=Interviewer code
+Name=XCINTV_VS1
+Value=1000
+Value=1001
+Value=1002
+Value=1003
+Value=1004
+Value=1100
+Value=1101
+Value=1102
+Value=1103
+Value=1104
+Value=1200
+Value=1201
+Value=1202
+Value=1203
+Value=1204
+Value=1205
+Value=1300
+Value=1301
+Value=1302
+Value=1303
+Value=1304
+Value=1305
+Value=1400
+Value=1401
+Value=1402
+Value=1403
+Value=1404
+Value=1405
+Value=1500
+Value=1501
+Value=1502
+Value=1503
+Value=1504
+Value=1600
+Value=1601
+Value=1602
+Value=1603
+Value=1604
+Value=1700
+Value=1701
+Value=1702
+Value=1703
+Value=1704
+Value=1800
+Value=1801
+Value=1802
+Value=1803
+Value=1804
+Value=1900
+Value=1901
+Value=1902
+Value=1903
+Value=1904
+Value=2000
+Value=2001
+Value=2002
+Value=2003
+Value=2004
+Value=2100
+Value=2101
+Value=2102
+Value=2103
+Value=2104
+Value=2200
+Value=2201
+Value=2202
+Value=2203
+Value=2204
+Value=2300
+Value=2301
+Value=2302
+Value=2303
+Value=2304
+Value=2400
+Value=2401
+Value=2402
+Value=2403
+Value=2404
+
+[Item]
+Label=Client code
+Name=XCCODE
+Start=194
+Len=3
+
+[ValueSet]
+Label=Code du client
+Name=XCCODE_FRA
+Value=301:399
+
+[ValueSet]
+Label=Client code
+Name=XCCODE_VS1
+Value=301:399
+
+[Item]
+Label=Permission to intervIew
+Name=XC100
+Start=197
+Len=1
+
+[ValueSet]
+Label=L'autorisation de poursuivre
+Name=XC100_FRA
+Value=1;Oui, le client accepte
+Value=2;Non, le client refuse
+
+[ValueSet]
+Label=Permission to intervIew
+Name=XC100_VS1
+Value=1;Yes, client agrees
+Value=2;No, client refuses
+
+[Item]
+Label=Time begins hour
+Name=XC101H
+Start=198
+Len=2
+
+[ValueSet]
+Label=Le debut de l'interview: heures
+Name=XC101H_FRA
+Value=6:22
+
+[ValueSet]
+Label=Time begins hour
+Name=XC101H_VS1
+Value=6:22
+
+[Item]
+Label=Time begins minutes
+Name=XC101M
+Start=200
+Len=2
+
+[ValueSet]
+Label=Le debut de l'interview: minutes
+Name=XC101M_FRA
+Value=0:59
+
+[ValueSet]
+Label=Time begins minutes
+Name=XC101M_VS1
+Value=0:59
+
+[Item]
+Label=Day of birth
+Name=XC103D
+Start=202
+Len=2
+
+[ValueSet]
+Label=Jour de naissance
+Name=XC103D_FRA
+Value=1:31
+Value=98;NSP
+Value=99;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Day of birth
+Name=XC103D_VS1
+Value=1:31
+Value=98;Don't know
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Month of birth
+Name=XC103M
+Start=204
+Len=2
+
+[ValueSet]
+Label=Client Mois
+Name=XC103M_FRA
+Value=1;Janvier
+Value=2;Février
+Value=3;Mars
+Value=4;Avril
+Value=5;Mai
+Value=6;Juin
+Value=7;Juillet
+Value=8;Août
+Value=9;Septembre
+Value=10;Octobre
+Value=11;Novembre
+Value=12;Décembre
+Value=98;NSP
+Value=99;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Month of birth
+Name=XC103M_VS1
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+Value=98;Don't know
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Year of birth
+Name=XC103Y
+Start=206
+Len=4
+
+[ValueSet]
+Label=Année de naissance
+Name=XC103Y_FRA
+Value=2011:2018
+Value=9998;NSP
+Value=9999;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Year of birth
+Name=XC103Y_VS1
+Value=2011:2018
+Value=9998;Don't know
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Age in months
+Name=XC104
+Start=210
+Len=2
+
+[ValueSet]
+Label=Age en mois
+Name=XC104_FRA
+Value=0:72
+Value=98;NSP
+Value=99;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Age in months
+Name=XC104_VS1
+Value=0:72
+Value=98;Don't know
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child had fever with this illness in past 2 days
+Name=XC105
+Start=212
+Len=1
+
+[ValueSet]
+Label=Enfant avait de la fièvre avec cette maladie au cours des 2 jours
+Name=XC105_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child had fever with this illness in past 2 days
+Name=XC105_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child had convulsions with this illness
+Name=XC106
+Start=213
+Len=1
+
+[ValueSet]
+Label=Enfant a eu une convulsion au cours de cette maladie
+Name=XC106_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child had convulsions with this illness
+Name=XC106_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child has cough or difficult breathing with this illness
+Name=XC107
+Start=214
+Len=1
+
+[ValueSet]
+Label=L'enfant a une toux ou des difficultés respiratoires avec cette maladie
+Name=XC107_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child has cough or difficult breathing with this illness
+Name=XC107_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child can drink, eat and/or breastfeed
+Name=XC108
+Start=215
+Len=1
+
+[ValueSet]
+Label=Enfant peut boire, manger  ou teter
+Name=XC108_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child can drink, eat and/or breastfeed
+Name=XC108_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child vomits everything when eats or breastfeeds during this illness
+Name=XC109
+Start=216
+Len=1
+
+[ValueSet]
+Label=Enfant vomit tout ce qu'il mange ou quand les tétées pendant cette maladie
+Name=XC109_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child vomits everything when eats or breastfeeds during this illness
+Name=XC109_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child has had watery and frequent stools with this illness in past 2 days
+Name=XC110
+Start=217
+Len=1
+
+[ValueSet]
+Label=Enfant a eu des selles liquides et fréquentes de cette maladie au cours des 2 jours
+Name=XC110_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child has had watery and frequent stools with this illness in past 2 days
+Name=XC110_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child been excessively sleepy during illness
+Name=XC111
+Start=218
+Len=1
+
+[ValueSet]
+Label=Enfant a été excessivement somnolent pendant la maladie
+Name=XC111_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child been excessively sleepy during illness
+Name=XC111_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Other reasons for visit
+Name=XC112
+Start=219
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=D'autres raisons de visite
+Name=XC112_FRA
+Value='A    ';Problèms aux oreilles
+Value='B    ';Affection de la peau
+Value='C    ';Blessure
+Value='D    ';Douleur abdominale
+Value='X    ';Autres (specifier)
+Value='Y    ';Pas d'autre raison
+Value='?    ';Manquant
+
+[ValueSet]
+Label=Other reasons for visit
+Name=XC112_VS1
+Value='A    ';Ear problem
+Value='B    ';Skin sore problem
+Value='C    ';Injury
+Value='D    ';Abdominal pain
+Value='X    ';Other (specify)
+Value='Y    ';No other reason
+Value='?    ';Missing
+
+[Item]
+Label=Most recent visit for same illness
+Name=XC113
+Start=224
+Len=1
+
+[ValueSet]
+Label=Visite la plus récente pour la même maladie
+Name=XC113_FRA
+Value=1;Au cours de la semaine passée
+Value=2;Au cours des 2-4 semaines passées
+Value=3;Il y a plus de 4 semaines
+Value=4;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Most recent visit for same illness
+Name=XC113_VS1
+Value=1;Within past week
+Value=2;Winth past 2-4 weeks
+Value=3;More than 4 weeks ago
+Value=4;No, child has not been to facility for this illness
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Days ago illness began
+Name=XC114
+Start=225
+Len=2
+
+[ValueSet]
+Label=Jours la maladie a commencé
+Name=XC114_FRA
+Value=0:90
+Value=98;NSP
+Value=99;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Days ago illness began
+Name=XC114_VS1
+Value=0:90
+Value=98;Don't know
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Provider gave diagnosis
+Name=XC115
+Start=227
+Len=1
+
+[ValueSet]
+Label=Prestataire donné le diagnostic
+Name=XC115_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Provider gave diagnosis
+Name=XC115_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Manquant
+Name=MISSING,Special
+
+[Item]
+Label=Action if no improvement
+Name=XC116
+Start=228
+Len=1
+
+[ValueSet]
+Label=Action si aucune amélioration
+Name=XC116_FRA
+Value=1;Retourner a l'institution
+Value=2;Aller a l'autre institution
+Value=3;Aller chez un autre prestataire ou pharmacie
+Value=4;Aller chez le guerrisseur traditionnel
+Value=5;Rien, attendre seulement
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Action if no improvement
+Name=XC116_VS1
+Value=1;Return to facility
+Value=2;Go to other facility
+Value=3;Go to other health worker/pharmacy
+Value=4;Go to traditional healer
+Value=5;Nothing, just wait
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Signs/symptoms for immediate return
+Name=XC117
+Start=229
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Les signes / symptômes d'un retour immédiat
+Name=XC117_FRA
+Value='A         ';Fièvre
+Value='B         ';Problèmes respiration
+Value='C         ';Devient plus malade
+Value='D         ';Sang dans les selles
+Value='E         ';Vomissement
+Value='F         ';Faible/ne mange pas
+Value='G         ';Faible/ne boit pas
+Value='X         ';Autre
+Value='Y         ';Non, aucun
+Value='Z         ';NSP
+Value='?         ';Manquant
+
+[ValueSet]
+Label=Signs/symptoms for immediate return
+Name=XC117_VS1
+Value='A         ';Fever
+Value='B         ';Breathing problems
+Value='C         ';Becomes sicker
+Value='D         ';Blood in stool
+Value='E         ';Vomiting
+Value='F         ';Poor/not eating
+Value='G         ';Poor/not drinking
+Value='X         ';Other
+Value='Y         ';No, none
+Value='Z         ';Don't know
+Value='?         ';Missing
+
+[Item]
+Label=Provider mentioned reasons for follow-up visit
+Name=XC118
+Start=239
+Len=8
+DataType=Alpha
+
+[ValueSet]
+Label=Prestataire mentionné des raisons pour une visite de suivi
+Name=XC118_FRA
+Value='A       ';Plus de medicaments
+Value='B       ';Si symptomes ou l'etat s'aggave
+Value='C       ';Rendez-vous de suivi
+Value='D       ';Enfant admis
+Value='E       ';Vaccination routinière
+Value='X       ';Autre
+Value='Y       ';Non
+Value='Z       ';NSP
+Value='?       ';Manquant
+
+[ValueSet]
+Label=Provider mentioned reasons for follow-up visit
+Name=XC118_VS1
+Value='A       ';More medicines
+Value='B       ';Symptoms increase or become worse
+Value='C       ';Follow-up appointment
+Value='D       ';Children welcome
+Value='E       ';Routine immunization
+Value='X       ';Other
+Value='Y       ';No
+Value='Z       ';Don't know
+Value='?       ';Missing
+
+[Item]
+Label=Provider gave/prescribed medications for home
+Name=XC119
+Start=247
+Len=1
+
+[ValueSet]
+Label=Prestataire a donné/prescrit médicaments pour la maison
+Name=XC119_FRA
+Value=1;Oui, a donné medicaments
+Value=2;Oui, a donné prescription
+Value=3;A donné medicaments et prescription
+Value=4;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Provider gave/prescribed medications for home
+Name=XC119_VS1
+Value=1;Yes, gave meds
+Value=2;Yes, gave prescriptions
+Value=3;Gave meds and prescriptions
+Value=4;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Description of medications/prescriptions
+Name=XC120
+Start=248
+Len=1
+
+[ValueSet]
+Label=Description des médicaments / prescription
+Name=XC120_FRA
+Value=1;A tous les médicaments
+Value=2;A certain meds, certaines prescrip, non executées
+Value=3;Aucun médicament vu, des prescrip, seulement
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Description of medications/prescriptions
+Name=XC120_VS1
+Value=1;Has all meds
+Value=2;Has some meds, some unfilled prescriptions
+Value=3;No medications seen, has only prescriptions
+Value=9;Missings
+Name=MISSING,Special
+
+[Item]
+Label=Provider gave instructions for giving medicines
+Name=XC121
+Start=249
+Len=1
+
+[ValueSet]
+Label=Prestataire donné des instructions pour administrer des médicaments
+Name=XC121_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Provider gave instructions for giving medicines
+Name=XC121_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Confident knows how much medicine to give each day and how many days to give
+Name=XC122
+Start=250
+Len=1
+
+[ValueSet]
+Label=Confiant sait combien médicament à administrer à chaque jour et combien de jours
+Name=XC122_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Confident knows how much medicine to give each day and how many days to give
+Name=XC122_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child given 1st dose of any medicines at facility
+Name=XC123
+Start=251
+Len=1
+
+[ValueSet]
+Label=Carte de vaccination vu
+Name=XC123_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child given a dose of any medicines at facility
+Name=XC123_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child given an injection for sickness today
+Name=XC124
+Start=252
+Len=1
+
+[ValueSet]
+Label=Enfant reçoit une injection de maladie aujourd'hui
+Name=XC124_FRA
+Value=1;Oui, reçu injection
+Value=2;Oui, reçu prescription pour injection
+Value=3;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child given an injection for sickness today
+Name=XC124_VS1
+Value=1;Yes, received injection
+Value=2;Yes, received prescription for injection
+Value=3;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child weighed
+Name=XC125
+Start=253
+Len=1
+
+[ValueSet]
+Label=Enfant pesé
+Name=XC125_FRA
+Value=1;Oui
+Value=2;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child weighed
+Name=XC125_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child's growth mentioned during visit
+Name=XC126
+Start=254
+Len=1
+
+[ValueSet]
+Label=Croissance de l'enfant mentionné lors de la visite
+Name=XC126_FRA
+Value=1;Oui
+Value=2;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child's growth mentioned during visit
+Name=XC126_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Provider asked about foods/amts normally given to child
+Name=XC127
+Start=255
+Len=1
+
+[ValueSet]
+Label=Fournisseur posé des questions sur les aliments / montants normalement donnés à l'enfant
+Name=XC127_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;Ne peut pas se rappeler
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Provider asked about foods/amts normally given to child
+Name=XC127_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Can't remember
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Provider directions regarding solids
+Name=XC128
+Start=256
+Len=1
+
+[ValueSet]
+Label=Directions prestataire concernant les solides
+Name=XC128_FRA
+Value=1;Donner moins que d'habitude
+Value=2;Donner même que d'habitude
+Value=3;Donner plus que d'habitude
+Value=4;Ne rien donner/ne pas alimenter
+Value=6;N'a rien dit
+Value=8;Pas certain
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Provider directions regarding solids
+Name=XC128_VS1
+Value=1;Give less than usual
+Value=2;Give same as usual
+Value=3;Give more than usual
+Value=4;Give nothing/don't feed
+Value=6;Didn't discuss
+Value=8;Don't know/not certain
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Provider directions regarding fluids
+Name=XC129
+Start=257
+Len=1
+
+[ValueSet]
+Label=Directions prestataire concernant les fluides
+Name=XC129_FRA
+Value=1;Donner moins que d'habitude
+Value=2;Donner même que d'habitude
+Value=3;Donner plus que d'habitude
+Value=4;Ne rien donner/ne pas alimenter
+Value=6;N'a rien dit
+Value=8;Ne sait pas
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Provider directions regarding fluids
+Name=XC129_VS1
+Value=1;Give less than usual
+Value=2;Give same as usual
+Value=3;Give more than usual
+Value=4;Give nothing/don't feed
+Value=6;Didn't discuss
+Value=8;Don't know/not certain
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Child given vaccination during visit
+Name=XC130
+Start=258
+Len=1
+
+[ValueSet]
+Label=Vaccination des enfant donnée lors de la visite
+Name=XC130_FRA
+Value=1;Oui, observé
+Value=2;Non
+Value=8;Ne sait pas
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Child given vaccination during visit
+Name=XC130_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Has vaccination card
+Name=XC131
+Start=259
+Len=1
+
+[ValueSet]
+Label=Carte de vaccination avec respondent
+Name=XC131_FRA
+Value=1;Oui
+Value=2;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Has vaccination card
+Name=XC131_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Vaccination card seen
+Name=XC132
+Start=260
+Len=1
+
+[ValueSet]
+Label=Visité autre fournisseur ou de laboratoire pour le doigt ou au talon
+Name=XC132_FRA
+Value=1;Oui
+Value=2;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Vaccination card seen
+Name=XC132_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Provider instructed to go to other provider/lab/facility for further care
+Name=XC134
+Start=261
+Len=1
+
+[ValueSet]
+Label=Prestataire de vous rendre à un autre prestataire / lab / installation pour des soins supplémentaires
+Name=XC134_FRA
+Value=1;Oui
+Value=2;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Provider instructed to go to other provider/lab/facility for further care
+Name=XC134_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Referral information
+Name=XC135
+Start=262
+Len=1
+Occurrences=4
+
+[ValueSet]
+Label=Renseignements sur le renvoi
+Name=XC135_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Referral information
+Name=XC135_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Visited other provider or traditional healer before this visit
+Name=XC136
+Start=266
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=Visité autre prestataire ou un guérisseur traditionnel avant cette visite
+Name=XC136_FRA
+Value='A   ';Oui, autre prestataire dans cette institution
+Value='B   ';Oui, autre prestataire dans une autre institution
+Value='C   ';Oui, guérisseur traditionnel
+Value='Y   ';Non
+Value='?   ';Manquant
+
+[ValueSet]
+Label=Visited other provider or traditional healer before this visit
+Name=XC136_VS1
+Value='A   ';Yes, other provider this facility
+Value='B   ';Yes, other provider different facility
+Value='C   ';Yes, traditional healer
+Value='Y   ';Saw no one
+Value='?   ';Missing
+
+[Item]
+Label=Time waited for provider (minutes)
+Name=X201
+Start=270
+Len=3
+
+[ValueSet]
+Label=Temps d'attente pour le prestataire (minutes)
+Name=X201_FRA
+Value=1:600
+Value=0;Vu prestataire immediatement
+Value=998;NSP
+Value=999;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Time waited for provider (minutes)
+Name=X201_VS1
+Value=1:600
+Value=0;Saw provider immediately
+Value=998;Don't know
+Value=999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Problems encountered today
+Name=X202
+Start=273
+Len=1
+Occurrences=11
+
+[ValueSet]
+Label=Problèmes rencontrée par le client aujourd'hui
+Name=X202_FRA
+Value=1;Grand
+Value=2;Mineur
+Value=3;Pas de problèmes
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Problems encountered today
+Name=X202_VS1
+Value=1;Major
+Value=2;Minor
+Value=3;No problem
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Part of prepayment plan
+Name=X203
+Start=284
+Len=1
+
+[ValueSet]
+Label=Assurance ou plan de remboursement anticipé
+Name=X203_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Part of prepayment plan
+Name=X203_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Fees for services for visit
+Name=X204
+Start=285
+Len=1
+
+[ValueSet]
+Label=Honoraires pour les services de visite
+Name=X204_FRA
+Value=1;Oui
+Value=2;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Fees for services for visit
+Name=X204_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Total fees (Gourdes)
+Name=X205
+Start=286
+Len=6
+
+[ValueSet]
+Label=Montant totale pour les services ou traitements (Gourdes)
+Name=X205_FRA
+Value=1:999990
+Value=999998;NSP
+Value=999999;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Total fees (Gourdes)
+Name=X205_VS1
+Value=1:999990
+Value=999998;Don't know
+Value=999999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Nearest facility to home
+Name=X206
+Start=292
+Len=1
+
+[ValueSet]
+Label=L'établissement de santé le plus proche de chez vous
+Name=X206_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Nearest facility to home
+Name=X206_VS1
+Value=1;Yes
+Value=2;No
+Value=8;Don't know
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Main reason didn't go to nearest facility
+Name=X207
+Start=293
+Len=2
+
+[ValueSet]
+Label=Principale raison ne vont pas à l'établissement le plus proche
+Name=X207_FRA
+Value=1;Heure de fonctionnement pas commode
+Value=2;Mauvaise reputation
+Value=3;N'aime pas le personnel
+Value=4;Pas de médicaments
+Value=5;Préféré rester anonyme
+Value=6;C'est plus cher
+Value=7;A été referré
+Value=96;Autre
+Value=98;NSP
+Value=99;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Main reason didn't go to nearest facility
+Name=X207_VS1
+Value=1;Inconvenient operating hours
+Value=2;Bad reputation
+Value=3;Don't like personnel
+Value=4;No medicine
+Value=5;Prefers to remain anonymous
+Value=6;It is more expensive
+Value=7;Was referred
+Value=96;Other
+Value=98;Don't know
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Opinion of services given today
+Name=X208
+Start=295
+Len=1
+
+[ValueSet]
+Label=Opinion sur les services rendus aujourd'hui
+Name=X208_FRA
+Value=1;Je suis très satisfaite des sevices reçus
+Value=2;Je suis plus ou moins satisfaite des services reçus
+Value=3;Je ne suis pas satisfaite des services reçus
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Opinion of services given today
+Name=X208_VS1
+Value=1;Very satisfied
+Value=2;More or less satisfied
+Value=3;Not satisfied
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Would recommend to friend/family member
+Name=X209
+Start=296
+Len=1
+
+[ValueSet]
+Label=Pouvez recommandez à un ami/ membre de la famille
+Name=X209_FRA
+Value=1;Oui
+Value=2;Non
+Value=8;NSP
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Would recommend to friend/family member
+Name=X209_VS1
+Value=1;Yes
+Value=2;No
+Value=8;DK
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Relationship to child
+Name=X301
+Start=297
+Len=1
+
+[ValueSet]
+Label=Lien avec l'enfant
+Name=X301_FRA
+Value=1;Mère
+Value=2;Père
+Value=3;Frère/soeur
+Value=4;Tante ou oncle
+Value=5;Grand-mère/ grand-père
+Value=6;Autre (specifier)
+Value=9;Manquant
+Name=MISSING,Special
+Value=' ';Pas applicable
+Name=NOTAPPL,Special
+
+[ValueSet]
+Label=Relationship to child
+Name=X301_VS1
+Value=1;Mother
+Value=2;Father
+Value=3;Sibling
+Value=4;Aunt/Uncle
+Value=5;Grand mom/ grand dad
+Value=6;Other (specify)
+Value=9;Missing
+Name=MISSING,Special
+Value=' ';Pas applicable
+Name=NOTAPPL,Special
+
+[Item]
+Label=Respondent's age
+Name=X302
+Start=298
+Len=2
+
+[ValueSet]
+Label=Age de la cliente
+Name=X302_FRA
+Value=11:95
+Value=98;NSP
+Value=99;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Respondent's age
+Name=X302_VS1
+Value=11:95
+Value=98;Don't know
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Ever attended school
+Name=X303
+Start=300
+Len=1
+
+[ValueSet]
+Label=Fréquenté l'école (formelle)
+Name=X303_FRA
+Value=1;Oui
+Value=2;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Ever attended school
+Name=X303_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Highest level attended
+Name=X304
+Start=301
+Len=1
+
+[ValueSet]
+Label=Le plus haut niveau scolaire atteint
+Name=X304_FRA
+Value=1;Primaire
+Value=2;Post-primaire / tecnique
+Value=3;Secondaire
+Value=4;Superieur / universitaire
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Highest level attended
+Name=X304_VS1
+Value=1;Primary
+Value=2;Post-primary/ vocational
+Value=3;Secondary
+Value=4;College (middle level)/University
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Literate
+Name=X305
+Start=302
+Len=1
+
+[ValueSet]
+Label=Sait lire ou écrire
+Name=X305_FRA
+Value=1;Oui, lire seulement
+Value=2;Oui, lire et ecrire
+Value=3;Non
+Value=9;Manquant
+Name=MISSING,Special
+
+[ValueSet]
+Label=Literate
+Name=X305_VS1
+Value=1;Yes, read and write
+Value=2;Yes, read only
+Value=3;No
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=End interview hour
+Name=X306H
+Start=303
+Len=2
+
+[ValueSet]
+Label=L'heure de la fin de l'interview
+Name=X306H_FRA
+Value=6:22
+
+[ValueSet]
+Label=End INTERVIew Hour
+Name=X306H_VS1
+Value=6:22
+
+[Item]
+Label=End interview minutes
+Name=X306M
+Start=305
+Len=2
+
+[ValueSet]
+Label=Minute de la fin de l'interview
+Name=X306M_FRA
+Value=0:59
+
+[ValueSet]
+Label=End INTERVIew Minutes
+Name=X306M_VS1
+Value=0:59

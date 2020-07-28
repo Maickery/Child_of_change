@@ -1,9 +1,0 @@
-infix dictionary using "C:\HT7A\EXPORT RECODE\EXPORTEDFILES\HTCHA7AFLSR.DAT" {
-1 lines
-    long     inv_id      1:   1-5   
-    byte     sf32line    1:   6-7   
-    byte     sf3203      1:   8-8   
-    byte     sf3204      1:   9-9   
-    byte     sf3205      1:  10-10  
-    int      sf3208      1:  11-14  
-}

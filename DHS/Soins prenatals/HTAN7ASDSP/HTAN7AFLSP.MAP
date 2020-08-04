@@ -1,0 +1,1427 @@
+                                                  HTAN7AFLSP                                                  
+                                               HTAN7AFLSP_DICT                                                
+
+                                       HTAN7AFLSP.DCF                                                         
+                                     Last Modified:  5/3/2019  7:58:11 PM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+INVENTORY                     Inventory questionnaire                                                         
+  RECORD1                       RECORD1                                                      AN  Yes    1  267
+Level: Inventory questionnaire                         Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+FACIL             (id) Facility identification                            1    5    N    I    1    0   No   No
+PROVNO            (id) Provider serial number                             6    2    N    I    1    0   No   No
+CLTYPE            (id) Client type                                        8    2   AN    I    1    0   No   No
+                               AN  ANC client
+                               FP  Family planning client
+                               SC  Sick child client
+CLNO              (id) Client number                                     10    3    N    I    1    0   No   No
+                               1:347  
+                         (record type)                                   13    2   AN    I    1    0   No   No
+CPROVCAT               Provider category                                 15    2    N    I    1    0   No   No
+  (CPROVCAT_FRA)         Qualification                                  
+                               1   Médecin géneraliste
+                               2   Médecin specialiste
+                               3   Technicien de laboratoire
+                               4   Auxiliaire de laboratoire (y compris aide)
+                               5   Technicien de radiologie
+                               6   Technicien en imagerie medicale
+                               7   Hygienist dentaire
+                               8   Infirmier(e)
+                               9   Infirmier(e) specialiste
+                               10  Auxiliaire infirmier(e)
+                               11  Sage femme
+                               12  Pharmacien
+                               13  Auxiliaire en pharmacie
+                               14  Autres agents de santé communautaire
+                               96  Autre (specifier)
+  (CPROVCAT_VS1)         Provider category                              
+                               1   General medical doctor
+                               2   Specialist medical doctor
+                               3   Lab technician
+                               4   Auxiliary lab technician
+                               5   Radiology technician
+                               6   Technician in medical images
+                               7   Dental hygienist
+                               8   Nurse
+                               9   Specialist nurse
+                               10  Auxiliary nurse
+                               11  Midwife
+                               12  Pharmacist
+                               13  Auxiliary pharmacist
+                               14  Other community health workers
+                               96  Other
+CPROVSEX               Provider sex                                      17    1    N    I    1    0   No   No
+  (CPROVSEX_FRA)         Sexe du prestataire                            
+                               1  Masculin
+                               2  Féminin
+  (CPROVSEX_VS1)         Provider sex                                   
+                               1  Male
+                               2  Female
+CDAY                   Client day                                        18    2    N    I    1    0   No   No
+  (CDAY_FRA)             Client jour                                    
+                               1:31  
+  (CDAY_VS1)             Client day                                     
+                               1:31  
+CMONTH                 Client month                                      20    2    N    I    1    0   No   No
+  (CMONTH_FRA)           Client mois                                    
+                               1   Janvier
+                               2   Février
+                               3   Mars
+                               4   Avril
+                               5   Mai
+                               6   Juin
+                               7   Juillet
+                               8   Août
+                               9   Septembre
+                               10  Octobre
+                               11  Novembre
+                               12  Décembre
+  (CMONTH_VS1)           Client month                                   
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+CYEAR                  Client year                                       22    4    N    I    1    0   No   No
+  (CYEAR_FRA)            Client année                                   
+                               2017:2018  
+  (CYEAR_VS1)            Client year                                    
+                               2017:2018  
+OINTV                  Observer code                                     26    4    N    I    1    0   No   No
+  (OINTV_FRA)            Code du observateur                            
+                               1000  
+                               1001  
+                               1002  
+                               1003  
+                               1004  
+                               1100  
+                               1101  
+                               1102  
+                               1103  
+                               1104  
+                               1200  
+                               1201  
+                               1202  
+                               1203  
+                               1204  
+                               1205  
+                               1300  
+                               1301  
+                               1302  
+                               1303  
+                               1304  
+                               1305  
+                               1400  
+                               1401  
+                               1402  
+                               1403  
+                               1404  
+                               1405  
+                               1500  
+                               1501  
+                               1502  
+                               1503  
+                               1504  
+                               1600  
+                               1601  
+                               1602  
+                               1603  
+                               1604  
+                               1700  
+                               1701  
+                               1702  
+                               1703  
+                               1704  
+                               1800  
+                               1801  
+                               1802  
+                               1803  
+                               1804  
+                               1900  
+                               1901  
+                               1902  
+                               1903  
+                               1904  
+                               2000  
+                               2001  
+                               2002  
+                               2003  
+                               2004  
+                               2100  
+                               2101  
+                               2102  
+                               2103  
+                               2104  
+                               2200  
+                               2201  
+                               2202  
+                               2203  
+                               2204  
+                               2300  
+                               2301  
+                               2302  
+                               2303  
+                               2304  
+                               2400  
+                               2401  
+                               2402  
+                               2403  
+                               2404  
+  (OINTV_VS1)            Observer code                                  
+                               1000  
+                               1001  
+                               1002  
+                               1003  
+                               1004  
+                               1100  
+                               1101  
+                               1102  
+                               1103  
+                               1104  
+                               1200  
+                               1201  
+                               1202  
+                               1203  
+                               1204  
+                               1300  
+                               1301  
+                               1302  
+                               1303  
+                               1304  
+                               1400  
+                               1401  
+                               1402  
+                               1403  
+                               1404  
+                               1500  
+                               1501  
+                               1502  
+                               1503  
+                               1504  
+                               1600  
+                               1601  
+                               1602  
+                               1603  
+                               1604  
+                               1700  
+                               1701  
+                               1702  
+                               1703  
+                               1704  
+                               1800  
+                               1801  
+                               1802  
+                               1803  
+                               1804  
+                               1900  
+                               1901  
+                               1902  
+                               1903  
+                               1904  
+                               2000  
+                               2001  
+                               2002  
+                               2003  
+                               2004  
+                               2100  
+                               2101  
+                               2102  
+                               2103  
+                               2104  
+                               2200  
+                               2201  
+                               2202  
+                               2203  
+                               2204  
+                               2300  
+                               2301  
+                               2302  
+                               2303  
+                               2304  
+                               2400  
+                               2401  
+                               2402  
+                               2403  
+                               2404  
+C100                   Provider agreement                                30    1    N    I    1    0   No   No
+  (C100_FRA)             Permission du prestataire                      
+                               1  Oui
+                               2  Non
+  (C100_VS1)             Provider agreement                             
+                               1  Yes
+                               2  No
+C101                   Client agreement                                  31    1    N    I    1    0   No   No
+  (C101_FRA)             Permission de la cliente                       
+                               1  Oui
+                               2  Non
+  (C101_VS1)             Client agreement                               
+                               1  Yes
+                               2  No
+C102H                  Hour begin                                        32    2    N    I    1    0   No   No
+  (C102H_FRA)            Hour begin                                     
+                               5:23  
+  (C102H_VS1)            Hour begin                                     
+                               5:23  
+C102M                  Minute begin                                      34    2    N    I    1    0   No   No
+  (C102M_FRA)            Minute begin                                   
+                               0:59  
+  (C102M_VS1)            Minute begin                                   
+                               0:59  
+C103                   First observation for this provider of this typ   36    1    N    I    1    0   No   No
+  (C103_FRA)             Ce-est la première observation pour ce prestata
+                               1  Oui, la première observation pour ce prestataire
+                               2  Non, ce n'est pas la première observation pour ce prestataire
+  (C103_VS1)             First observation for this provider of this typ
+                               1  Yes, first observation of this type of client for this provider
+                               2  No, not first of this type for this provider
+CLIENTWT               Client weight                                     37    8    N    I    1    0   No   No
+OA104                  Client history                                    45    5   AN    I    1    0   No   No
+  (OA104_FRA)            Antecedents de la cliente                      
+                               A      L'âge de la cliente
+                               B      Les médicaments que la cliente prend
+                               C      Date du début des dernière règles
+                               D      Nombre de grossesse antérieures que la cliente a eues
+                               Y      Aucun des éléments ci-dessus
+                               ?      Manquant
+  (OA104_VS1)            Client history                                 
+                               A      Client age
+                               B      Medications client is taking
+                               C      Date client's last menstrual period began
+                               D      Number of prior pregnancies client has had
+                               Y      None of the above
+                               ?      Missing
+OA105                  Aspects of prior pregnancies                      50   12   AN    I    1    0   No   No
+  (OA105_FRA)            Aspect rélatifs aux grossesses antérieures     
+                               A             Mort-nés antérieures
+                               B             Enfants décédés au cours de la première semaine de vie
+                               C             Enfants décédes au cours des 4 premières semaine de vie
+                               D             Saignement intense, pendant ou âpres l'accouchement
+                               E             Accouchement antérieur assisté (césarienne, ventouse, ou forceps)
+                               F             Avortements spontanès antérieurs
+                               G             Grossesses multiples antérieures
+                               H             Travail prolongé antérieur
+                               I             Hypertension gravidique antérieure
+                               J             Convulsions liées à une grossesse intérieure
+                               K             Fièvre élevée ou infection durant la(es) grossesse(s) antérieure(
+                               Y             Aucun des aspects ci-dessus
+                               ?             Manquant
+  (OA105_VS1)            Aspects of prior pregnancies                   
+                               A             Prior stillbirths
+                               B             Infant(s) who died in the first week of life
+                               C             Infant(s) who died in the 4 first week of life
+                               D             Heavy bleeding, during or after delivery
+                               E             Previous assisted delivery (cesarean section, ventouse, or forcep
+                               F             Previous spontaneous abortions
+                               G             Previous multiple pregnancies
+                               H             Previous prolonged labor
+                               I             Previous pregnancy-induced hypertension
+                               J             Previous pregnancy related convulsions
+                               K             High fever or infection during prior pregnancy/pregnancies
+                               Y             None of the above
+                               ?             Missing
+OA106A                 Danger signs of current pregnancy asked by prov   62    9   AN    I    1    0   No   No
+  (OA106A_FRA)           Signes de danger de la grossesse actuelle      
+                               A          Saignement vaginal
+                               B          Fièvre
+                               C          Maux de tête ou vision brouillée
+                               D          Gonflement du visage ou des mains
+                               E          Fatique ou essoufflement
+                               F          Movements f?taux (absence ou excessif)
+                               G          Toux ou difficulté à respirer pendant 3 semaines ou plus
+                               H          Autres symptômes ou problèmes que la cliente pense qu'ils pourraient
+                               Y          Aucun des signes ci-dessus
+                               ?          Manquant
+  (OA106A_VS1)           Danger signs of current pregnancy asked by prov
+                               A          Vaginal bleeding
+                               B          Fever
+                               C          Headache or blurred vision
+                               D          Swollen face or hands
+                               E          Tiredness or breathlessness
+                               F          Fetal movement (loss of, excessive, normal)
+                               G          Cough or difficulty breathing for 3 weeks or longer
+                               H          Any other symptoms or problems the client thinks might be related to
+                               Y          None of the above
+                               ?          Missing
+OA106B                 Danger signs of current pregnancy counselled by   71    9   AN    I    1    0   No   No
+  (OA106B_FRA)           Signes de danger de la grossesse actuelle prest
+                               A          Saignement vaginal
+                               B          Fièvre
+                               C          Maux de tête ou vision brouillée
+                               D          Gonflement du visage ou des mains
+                               E          Fatique ou essoufflement
+                               F          Movements f?taux (absence ou excessif)
+                               G          Toux ou difficulté à respirer pendant 3 semaines ou plus
+                               H          Autres symptômes ou problèmes que la cliente pense qu'ils pourraient
+                               Y          Aucun des signes ci-dessus
+                               ?          Manquant
+  (OA106B_VS1)           Danger signs of current pregnancy counselled by
+                               A          Vaginal bleeding
+                               B          Fever
+                               C          Headache or blurred vision
+                               D          Swollen face or hands
+                               E          Tiredness or breathlessness
+                               F          Fetal movement (loss of, excessive, normal)
+                               G          Cough or difficulty breathing for 3 weeks or longer
+                               H          Any other symptoms or problems the client thinks might be related to
+                               Y          None of the above
+                               ?          Missing
+OA107                  Physical examination                              80   12   AN    I    1    0   No   No
+  (OA107_FRA)            Examen médical                                 
+                               A             Prendre la tension artérielle de la cliente
+                               B             Peser la cliente
+                               C             Examininer les conjonctives/paumes pour l'anémie
+                               D             Examiner les jambes/pieds/mains pour l'?dème
+                               E             Examiner les ganglions pour gonflement
+                               F             Palper l'abdomen de la cliente pour connaître la position du foet
+                               G             Palper l'abdomen de la cliente pour mesurer la hauteur de l'utéru
+                               H             Ausculter l'abdomen de la cliente pour entendre les battements du
+                               I             Faire une échographie/référér la cliente pour une échographie/con
+                               J             Examiner les seins de la cliente
+                               K             Effectuer un examen vaginal/examen de la surface périnéale
+                               Y             Aucune des procédures ci-dessus
+                               ?             Manquant
+  (OA107_VS1)            Physical examination                           
+                               A             Take blood pressure
+                               B             Weigh the client
+                               C             Examine conjunctiva/ palms for anemia
+                               D             Examine legs/ feet/ hands for oedema
+                               E             Examine for swollen glands
+                               F             Palpate the client's abdomen for fetal presentation
+                               G             Palpate the client's abdomen for uterine height
+                               H             Listen to the client's abdomen for fetal heartbeat
+                               I             Conduct an ultrasound/ refer client for ultrasound or look at rec
+                               J             Examine the client's breasts
+                               K             Conduct vaginal exam/ exam of preineal area
+                               Y             None of the above
+                               ?             Missing
+OA108                  Routine tests                                     92    4   AN    I    4    0   No   No
+  (OA108_FRA)            Routine tests                                  
+                               A     Prestataire a demandé
+                               B     Prestataire a effectué
+                               C     Prestataire a référé
+                               Y     Pas action prise
+                               ?     Manquant
+  (OA108_VS1)            Routine tests                                  
+                               A     Provider asked about
+                               B     Provider performed
+                               C     Provider referred
+                               Y     None of these actions
+                               ?     Missing
+OA109                  HIV counseling and testing                       108    6   AN    I    1    0   No   No
+  (OA109_FRA)            Conseil et dépistage de VIH                    
+                               A       A  demandé si la cliente connait que son status sérologique
+                               B       A fourni des conseils relatifs au test du VIH
+                               C       A référé pour le counseling relatif au test du VIH
+                               D       A effectué un test de VIH
+                               E       A référé pour un test de VIH
+                               Y       Aucune des actions ci-dessus
+                               ?       Manquant
+  (OA109_VS1)            HIV counseling and testing                     
+                               A       Asked if client knew HIV status
+                               B       Provided counselling related to HIV test
+                               C       Refer for counseling related to HIV test
+                               D       Perform HIV test
+                               E       Refer for HIV test
+                               Y       None of the above
+                               ?       Missing
+OA110                  Healthy pregnancy                                114    4   AN    I    1    0   No   No
+  (OA110_FRA)            Maintien d'une grossesse saine                 
+                               A     A discuté de la nutrition (c.à.d. quantité ou qualité de nourriture à man
+                               B     A informé la cliente sur l'évolution de la grossesse
+                               C     A discuté de l'importance de faire au moins 4 visites CPS
+                               Y     Aucun des sujets ci-dessus
+                               ?     Manquant
+  (OA110_VS1)            Healthy pregnancy                              
+                               A     Discussed nutrition (quality or quantity of food to eat) during pregnancy
+                               B     Informed client about progress of pregnancy
+                               C     Discussed importance of at least 4 ANC visits
+                               Y     None of the above
+                               ?     Missing
+OA111                  Iron prophylaxis                                 118    5   AN    I    1    0   No   No
+  (OA111_FRA)            Prophylaxie de fer                             
+                               A      A prescrit ou donné des comprimés de fer ou de l'acide folique (AF) ou t
+                               B      A expliqué l'importance de la price de fer ou de l'acide folique
+                               C      A expliqué comment prendre des comprimés de fer our de l'acide folique
+                               D      A expliqué les effets secondaires des prmprimés de fer
+                               Y      Aucun des médicaments/conseils ci-dessus
+                               ?      Manquant
+  (OA111_VS1)            Iron prophylaxis                               
+                               A      Prescribed or gave iron pills or folic acid (IFA) or both
+                               B      Explained the purpose of iron or folic acid
+                               C      Explained how to take iron or folic acid pills
+                               D      Explained side effects of iron pills
+                               Y      None of the above
+                               ?      Missing
+OA112                  Tetanus Toxoid injection                         123    3   AN    I    1    0   No   No
+  (OA112_FRA)            Injection de vaccin anti-tetanique             
+                               A    A prescrit ou donné une injection de vaccin anti't'tanique (VAT)
+                               B    A expliqué l'importance de l'injection du (VAT)
+                               Y    Aucun des médicaments/conseils ci-dessus
+                               ?    Manquant
+  (OA112_VS1)            Tetanus Toxoid injection                       
+                               A    Prescribed or gave a tetanus toxoid (TT) injection
+                               B    Explained the purpose of the TT injection
+                               Y    None of the above
+                               ?    Missing
+OA113                  Deworming                                        126    3   AN    I    1    0   No   No
+  (OA113_FRA)            Deparasitage                                   
+                               A    A prescrit ou donné du Mebendazole/  de l'Albendazole
+                               B    A expliqué l'importance du Mebendazole/de l'Albendazole
+                               Y    Aucun des médicaments ci-dessus
+                               ?    Manquant
+  (OA113_VS1)            Deworming                                      
+                               A    Prescribed or gave Mebendazole
+                               B    Explained the purpose of Mebendazole
+                               Y    None of the above
+                               ?    Missing
+OA114                  Malaria                                          129    4   AN    I    1    0   No   No
+  (OA114_FRA)            Paludisme                                      
+                               A     A expliqué comment prendre des médicaments antimalariques
+                               B     A expliqué les effets secondaires possibles des antimalariques
+                               C     L'importance d'usage de moustiquaire imprégnée d'insectcide a été clairem
+                               Y     Aucun des médicaments/conseils ci-dessus
+                               ?     Manquant
+  (OA114_VS1)            Malaria                                        
+                               A     Explained the purpose of the preventive treatment with anti-malaria medic
+                               B     Explained possible side effects of the anti-malaria medicine
+                               C     Importance of further doses of IPT explained
+                               Y     None of the above
+                               ?     Missing
+OA115                  Preparation for delivery                         133    5   AN    I    1    0   No   No
+  (OA115_FRA)            Preparatifs a l'accouchement                   
+                               A      A demandé à la cliente là où elle compte accoucher
+                               B      A conseillé à la cliente de se préparer à l accouchement (ex. mettre de 
+                               C      A conseillé la cliente d'utiliser les services d'un personnel de santé q
+                               D      A discuté avec la cliente ce qu'elle doit avoir sous la main à la maison
+                               Y      Aucun des sujets ci-dessus
+                               ?      Manquant
+  (OA115_VS1)            Preparation for delivery                       
+                               A      Asked the client where she will deliver
+                               B      Advised client to prepare for delivery (e.g. set aside money, arrange fo
+                               C      Advised client to use a skilled health worker for delivery
+                               D      Discussed with clients what items to have on hand at home for emergencie
+                               Y      None of the above
+                               ?      Missing
+OA116                  Newborn/ postpartum recommendations              138    6   AN    I    1    0   No   No
+  (OA116_FRA)            Recommandations pour nouveau-ne et post partum 
+                               A       A discuté des soins du nouveau-né (chaleur, hygiène et soins du cordon)
+                               B       A discuté de l'initiation précoce et prolongée de l'allaitement materne
+                               C       A discuté de l'allaitement exclusif au sein
+                               D       A discuté de l' importance de la vaccination du nouveau-né
+                               E       A discuté des options pour la planification familiale après l'accouchem
+                               Y       Aucun des sujets ci-dessus
+                               ?       Manquant
+  (OA116_VS1)            Newborn/ postpartum recommendations            
+                               A       Discussed care for newborn (warmth, hygiene and cord care)
+                               B       Discussed early initiation and prolonged breastfeeding
+                               C       Discussed exclusive breastfeeding
+                               D       Discussed importance of vaccination for newborn
+                               E       Discussed family planning options for after delivery
+                               Y       None of the above
+                               ?       Missing
+OA117                  Encouraged questions                             144    1    N    I    1    0   No   No
+  (OA117_FRA)            Et l'a encourage a poser des questions         
+                               1  Oui, a pose questions
+                               2  Non, pas de questions
+                           (m) 9  Manquant
+  (OA117_VS1)            Encouraged questions                           
+                               1  Yes, asked questions
+                               2  No, did not ask questions
+                           (m) 9  Missing
+OA118                  Used visual aids                                 145    1    N    I    1    0   No   No
+  (OA118_FRA)            A utilise d'images pour l'education sanitaire  
+                               1  Oui, a utilisé d'images
+                               2  N'a pas utilisé d'images
+                           (m) 9  Manquant
+  (OA118_VS1)            Used visual aids                               
+                               1  Yes, used visual aids
+                               2  No, did not use visual aids
+                           (m) 9  Missing
+OA119                  Provider looked at client card                   146    1    N    I    1    0   No   No
+  (OA119_FRA)            Regardé dans carnet                            
+                               1  Oui, a regardé dans carnet
+                               2  N'á pas regardé dans carnet
+                           (m) 9  Manquant
+  (OA119_VS1)            Provider looked at client card                 
+                               1  Yes, looked at card
+                               2  No, did not look at card
+                           (m) 9  Missing
+OA120                  Provider wrote on card                           147    1    N    I    1    0   No   No
+  (OA120_FRA)            Notez si le prestataire a regarde dans le caner
+                               1  Oui
+                               2  Non
+                               3  Carnet de santé n'est pas utilisé
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (OA120_VS1)            Provider wrote on card                         
+                               1  Yes
+                               2  No
+                               3  Health card not used
+                               8  Don't know
+                           (m) 9  Missing
+OA121                  Outcome of consult                               148    1    N    I    1    0   No   No
+  (OA121_FRA)            Resultat de la consultation                    
+                               1  La cliente s'en va
+                               2  La cliente est referée (au labo ou autre prestataire) dans la meme instituti
+                               3  La cliente es admise dans la même institution
+                               4  La cliente est referée dans une autre institution
+                           (m) 9  Manquant
+  (OA121_VS1)            Outcome of consult                             
+                               1  Client goes home
+                               2  Client referred (to lab or other provider) at same facility
+                               3  Client admitted to same facility
+                               4  Client referred to other faciltiy
+                           (m) 9  Missing
+OA122                  Weeks pregnant                                   149    2    N    I    1    0   No   No
+  (OA122_FRA)            Semaines de grossesse                          
+                               2:45  
+                               98    NSP
+                           (m) 99    Manquant
+  (OA122_VS1)            Weeks pregnant                                 
+                               2:45  
+                               98    Don't know
+                           (m) 99    Missing
+OA123                  Visit number                                     151    1    N    I    1    0   No   No
+  (OA123_FRA)            Numéro de la visite                            
+                               1  Premiere visite
+                               2  Deuxième visite
+                               3  Troisième visite
+                               4  Quatrième visite
+                               5  Cinquième visite ou plus
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (OA123_VS1)            Visit number                                   
+                               1  First visit
+                               2  Second visit
+                               3  Third visit
+                               4  Fourth visit
+                               5  Fifth or more visit
+                               8  Don't know
+                           (m) 9  Missing
+OA124                  Number of pregnancies for client                 152    1    N    I    1    0   No   No
+  (OA124_FRA)            Nombre de grossesse pour le client             
+                               1  Première grossesse
+                               2  Pas première grossesse
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (OA124_VS1)            Number of pregnancies for client               
+                               1  First pregnancy
+                               2  Not first pregnancy
+                               8  Don't know
+                           (m) 9  Missing
+OA125H                 Hour ended observation                           153    2    N    I    1    0   No   No
+  (OA125H_FRA)           Heure fin d'observation                        
+                               6:22  
+  (OA125H_VS1)           Hour ended observation                         
+                               6:22  
+OA125M                 Minute ended observation                         155    2    N    I    1    0   No   No
+  (OA125M_FRA)           Minute observation et terminée                 
+                               0:59  
+  (OA125M_VS1)           Minute ended observation                       
+                               0:59  
+XANDAY                 Client Day                                       157    2    N    I    1    0   No   No
+  (XANDAY_FRA)           Jour client                                    
+                               1:31  
+  (XANDAY_VS1)           Client Day                                     
+                               1:31  
+XANMONTH               Client Month                                     159    2    N    I    1    0   No   No
+  (XANMONTH_FRA)         Client Month                                   
+                               1   Janvier
+                               2   Février
+                               3   Mars
+                               4   Avril
+                               5   Mai
+                               6   Juin
+                               7   Juillet
+                               8   Août
+                               9   Septembre
+                               10  Octobre
+                               11  Novembre
+                               12  Décembre
+  (XANMONTH_VS1)         Client Month                                   
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+XANYEAR                Client Year                                      161    4    N    I    1    0   No   No
+  (XANYEAR_FRA)          Client Year                                    
+                               2017:2018  
+  (XANYEAR_VS1)          Client Year                                    
+                               2017:2018  
+XANINTV                Interviewer code                                 165    4    N    I    1    0   No   No
+  (XANINTV_FRA)          Code de l'enqueteur                            
+                               1000  
+                               1001  
+                               1002  
+                               1003  
+                               1004  
+                               1100  
+                               1101  
+                               1102  
+                               1103  
+                               1104  
+                               1200  
+                               1201  
+                               1202  
+                               1203  
+                               1204  
+                               1205  
+                               1300  
+                               1301  
+                               1302  
+                               1303  
+                               1304  
+                               1305  
+                               1400  
+                               1401  
+                               1402  
+                               1403  
+                               1404  
+                               1405  
+                               1500  
+                               1501  
+                               1502  
+                               1503  
+                               1504  
+                               1600  
+                               1601  
+                               1602  
+                               1603  
+                               1604  
+                               1700  
+                               1701  
+                               1702  
+                               1703  
+                               1704  
+                               1800  
+                               1801  
+                               1802  
+                               1803  
+                               1804  
+                               1900  
+                               1901  
+                               1902  
+                               1903  
+                               1904  
+                               2000  
+                               2001  
+                               2002  
+                               2003  
+                               2004  
+                               2100  
+                               2101  
+                               2102  
+                               2103  
+                               2104  
+                               2200  
+                               2201  
+                               2202  
+                               2203  
+                               2204  
+                               2300  
+                               2301  
+                               2302  
+                               2303  
+                               2304  
+                               2400  
+                               2401  
+                               2402  
+                               2403  
+                               2404  
+  (XANINTV_VS1)          Interviewer's code                             
+                               1000  
+                               1001  
+                               1002  
+                               1003  
+                               1004  
+                               1100  
+                               1101  
+                               1102  
+                               1103  
+                               1104  
+                               1200  
+                               1201  
+                               1202  
+                               1203  
+                               1204  
+                               1205  
+                               1300  
+                               1301  
+                               1302  
+                               1303  
+                               1304  
+                               1305  
+                               1400  
+                               1401  
+                               1402  
+                               1403  
+                               1404  
+                               1405  
+                               1500  
+                               1501  
+                               1502  
+                               1503  
+                               1504  
+                               1600  
+                               1601  
+                               1602  
+                               1603  
+                               1604  
+                               1700  
+                               1701  
+                               1702  
+                               1703  
+                               1704  
+                               1800  
+                               1801  
+                               1802  
+                               1803  
+                               1804  
+                               1900  
+                               1901  
+                               1902  
+                               1903  
+                               1904  
+                               2000  
+                               2001  
+                               2002  
+                               2003  
+                               2004  
+                               2100  
+                               2101  
+                               2102  
+                               2103  
+                               2104  
+                               2200  
+                               2201  
+                               2202  
+                               2203  
+                               2204  
+                               2300  
+                               2301  
+                               2302  
+                               2303  
+                               2304  
+                               2400  
+                               2401  
+                               2402  
+                               2403  
+                               2404  
+XANCCODE               Client code                                      169    3    N    I    1    0   No   No
+  (XANCCODE_FRA)         Code du client                                 
+                               101:199  
+  (XANCCODE_VS1)         Client code                                    
+                               101:199  
+XA100                  Permission to continue                           172    1    N    I    1    0   No   No
+  (XA100_FRA)            L'autorisation de poursuivre                   
+                               1  Accepte
+                               2  Refus
+  (XA100_VS1)            Permission to continue                         
+                               1  Yes, agrees
+                               2  No, client refuses
+XA101H                 Time begins hour                                 173    2    N    I    1    0   No   No
+  (XA101H_FRA)           Le temps commence heures                       
+                               6:22  
+  (XA101H_VS1)           Time begins hour                               
+                               6:22  
+XA101M                 Time begins minutes                              175    2    N    I    1    0   No   No
+  (XA101M_FRA)           Le temps commence minutes                      
+                               0:59  
+  (XA101M_VS1)           Time begins minutes                            
+                               0:59  
+XA102                  Antenatal care card                              177    1    N    I    1    0   No   No
+  (XA102_FRA)            Carte de soins prénatals                       
+                               1  Oui
+                               2  Non, carnet reste dans l'institution
+                               3  Carnet pas utilise
+                           (m) 9  Manquant
+  (XA102_VS1)            Antenatal care card                            
+                               1  Yes
+                               2  No, card kept at facility
+                               3  No card/book used
+                           (m) 9  Missing
+XA103                  TT recorded on card                              178    1    N    I    1    0   No   No
+  (XA103_FRA)            Carnet indiquez du vaccin anti-tetanique       
+                               1  Oui, une fois
+                               2  Oui, deux fois
+                               3  Oui, trois fois ou plus
+                               4  Pas d'indication
+                           (m) 9  Manquant
+  (XA103_VS1)            TT recorded on card                            
+                               1  Yes 1 time
+                               2  Yes 2 times
+                               3  Yes, 3+ times
+                               4  No record
+                           (m) 9  Missing
+XA104                  Weeks pregnant recorded on ANC card              179    2    N    I    1    0   No   No
+  (XA104_FRA)            Enceinte semaines ANC enregistrées sur la carte
+                               2:45  
+                               95    Pas disponible
+                           (m) 99    Manquant
+  (XA104_VS1)            Weeks pregnant recorded on ANC card            
+                               2:45  
+                               95    Not available
+                           (m) 99    Missing
+XA106                  First pregnancy                                  181    1    N    I    1    0   No   No
+  (XA106_FRA)            Première grossesse                             
+                               1  Premiere grossesse
+                               2  Pas premiere grossesse
+                           (m) 9  Manquant
+  (XA106_VS1)            First pregnancy                                
+                               1  First pregnancy
+                               2  Not first pregancy
+                           (m) 9  Missing
+XA107                  Visit number to this facility for this pregnanc  182    1    N    I    1    0   No   No
+  (XA107_FRA)            Numéro de la visite de cette installation pour 
+                               1  Premiere visite
+                               2  Deuxieme visite
+                               3  Troiseme visite
+                               4  Quatrieme visite
+                               5  Plus des 4 visites
+                           (m) 9  Manquant
+  (XA107_VS1)            Visit number to this facility for this pregnanc
+                               1  First visit
+                               2  Second visit
+                               3  Third visit
+                               4  Fourth visit
+                               5  More than 4 visits
+                           (m) 9  Missing
+XA108                  Ever given iron tablets                          183    1    N    I    1    0   No   No
+  (XA108_FRA)            Jamais donné des comprimés de fer              
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la precedente
+                               3  Oui, visite precendente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA108_VS1)            Ever given iron tablets                        
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA109                  Provider ever explained how to take iron tablet  184    1    N    I    1    0   No   No
+  (XA109_FRA)            Fournisseur jamais expliqué comment prendre des
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la precedente
+                               3  Oui, visite précéndente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA109_VS1)            Provider ever explained how to take iron tablet
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA110                  Provider ever discussed side effects of iron ta  185    1    N    I    1    0   No   No
+  (XA110_FRA)            Effets secondaires provider jamais discuté des 
+                               1  Oui, seulement cette visite
+                               2  Oui, seulement cette visite et la precendente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA110_VS1)            Provider ever discussed side effects of iron ta
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA111                  Client's knowledge of side effects of iron tabl  186    5   AN    I    1    0   No   No
+  (XA111_FRA)            Client connaissance des effets secondaires des 
+                               A      Nausée
+                               B      Selles noires
+                               C      Constipation
+                               X      Autre
+                               Z      Ne sait pas
+                               ?      Manquant
+  (XA111_VS1)            Client's knowledge of side effects of iron tabl
+                               A      Nausea
+                               B      Black stools
+                               C      Constipation
+                               X      Other
+                               Z      Don't know
+                               ?      Missing
+XA112                  Given or prescribed anti-malarial                191    1    N    I    1    0   No   No
+  (XA112_FRA)            Étant donné ou prescrit des anti-paludéens     
+                               1  Oui, seulement cette visite
+                               2  Oui, seulement cette visite et la precendente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA112_VS1)            Given or prescribed anti-malarial              
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA113                  Swallowed pills or have them                     192    1    N    I    1    0   No   No
+  (XA113_FRA)            Vous a-t-on demandé d'avaler les comprimés dans
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (XA113_VS1)            Swallowed pills or have them                   
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+XA114                  Provider ever advise use of mosquito net treate  193    1    N    I    1    0   No   No
+  (XA114_FRA)            Fournisseur jamais conseillons l'utilisation de
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la precendente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA114_VS1)            Provider ever advise use of mosquito net treate
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA115                  Provider ever offered ITN free of charge         194    1    N    I    1    0   No   No
+  (XA115_FRA)            Un prestataire vous a donné une moustiquaire im
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la precedente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA115_VS1)            Provider ever offered ITN free of charge       
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA116                  Provider offered to sell ITN or recommended pla  195    1    N    I    1    0   No   No
+  (XA116_FRA)            Fournisseur a offert de vendre ou d'ITN endroit
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la précédente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA116_VS1)            Provider offered to sell ITN or recommended pla
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA117                  Provider ever discussed diet/nutrition during p  196    1    N    I    1    0   No   No
+  (XA117_FRA)            Fournisseur jamais discuté alimentation / nutri
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la précédente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA117_VS1)            Provider ever discussed diet/nutrition during p
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA118                  Provider talked about danger signs in pregnancy  197    1    N    I    1    0   No   No
+  (XA118_FRA)            Fournisseur parlé de signes de danger pendant l
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la précédente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA118_VS1)            Provider talked about danger signs in pregnancy
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA119                  Client knowledge of danger signs                 198   10   AN    I    1    0   No   No
+  (XA119_FRA)            Connaissance de la client des signes de danger 
+                               A           Saignement vaginal
+                               B           Fievre
+                               C           Oedeme visage/mains
+                               D           Fatigue et essouflement
+                               E           Maux de tete et vision trouble
+                               F           Convulsions
+                               G           Mouvement foetal reduit ou absent
+                               H           Rupture prematuree des membranes
+                               X           Autre
+                               Z           Ne sait pas
+                               ?           Manquant
+  (XA119_VS1)            Client knowledge of danger signs               
+                               A           Vaginal bleeding
+                               B           Fever
+                               C           Swollen face/hands
+                               D           Tiredness/breathlessness
+                               E           Headache/blurred vision
+                               F           Seizures/ Convulsions
+                               G           Reduced or no fetal movement
+                               H           Added
+                               X           Other
+                               Z           Don't know
+                               ?           Missing
+XA120                  Provider advice about danger signs               208    5   AN    I    1    0   No   No
+  (XA120_FRA)            Fournisseur conseils sur les signes de danger  
+                               A      Venir à la structure
+                               B      Reduire l'activité physique
+                               C      Changer le regime alimantaire
+                               X      Autre
+                               Y      Pas de conseils
+                               ?      Manquant
+  (XA120_VS1)            Provider advice about danger signs             
+                               A      Seek care at facility
+                               B      Reduce physical activity
+                               C      Change diet
+                               X      Other
+                               Y      Provider did not advise
+                               ?      Missing
+XA121                  Provider ever discussed preparation for deliver  213    1    N    I    1    0   No   No
+  (XA121_FRA)            Fournisseur déjà discuté de la préparation pour
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la précédente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA121_VS1)            Provider ever discussed preparation for deliver
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Ne sait pas
+                           (m) 9  Missing
+XA122                  Client knowledge of preparatory needs            214    6   AN    I    1    0   No   No
+  (XA122_FRA)            Connaissance des besoins des clients préparatoi
+                               A       Transport d'urgence
+                               B       Argent
+                               C       Desinfectant
+                               D       Lame de rasoir/ciseaux steriles pour couper cordon
+                               E       Articles pour bébé (vêtements, biberon, cuvettes, etc.)
+                               X       Autre
+                               Z       Ne sait pas
+                               ?       Manquant
+  (XA122_VS1)            Client knowledge of preparatory needs          
+                               A       Emergency transport
+                               B       Money
+                               C       Disinfectant
+                               D       Sterile blade/scissors to cut cord
+                               E       Baby stuff (clothes, bottle, bathtub, etc.)
+                               X       Other
+                               Z       Don't know
+                               ?       Missing
+XA123                  Money available for delivery                     220    1    N    I    1    0   No   No
+  (XA123_FRA)            L'argent à côté pour l'accouchement            
+                               1  Oui, assez
+                               2  Oui, mais pas assez
+                               3  Non
+                           (m) 9  Manquant
+  (XA123_VS1)            Money available for delivery                   
+                               1  Yes, enough
+                               2  Yes, but not enough
+                               3  No
+                           (m) 9  Missing
+XA124                  Provider ever discussed delivery plans           221    1    N    I    1    0   No   No
+  (XA124_FRA)            Fournisseur déjà discuté des plans de livraison
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la précédente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA124_VS1)            Provider ever discussed delivery plans         
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA125                  Where client plans to deliver                    222    1    N    I    1    0   No   No
+  (XA125_FRA)            Avez-vous décidé où vous ires accoucher de votr
+                               1  Dans cette institution
+                               2  Dans autre institution
+                               3  A domicile
+                               4  Chez la matrone
+                               6  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA125_VS1)            Where client plans to deliver                  
+                               1  At this facility
+                               2  At other health facility
+                               3  At own home
+                               4  At TBAs home
+                               6  Other location (specify)
+                               8   Don't know
+                           (m) 9  Missing
+XA126                  Client knowledge of danger signs during/after d  223    5   AN    I    1    0   No   No
+  (XA126_FRA)            Connaissance de la client des signes de danger 
+                               A      Saignement abondant
+                               B      Fievre
+                               C      Plaies genitales
+                               D      Aucun de ceux-ci
+                               Y      Non
+                               ?      Manquant
+  (XA126_VS1)            Client knowledge of danger signs during/after d
+                               A      Excessive Bleeding
+                               B      Fever
+                               C      Genital injuries
+                               D      Aucun de ceux-ci
+                               Y      None
+                               ?      Missing
+XA127                  Provider ever advised about importance of exclu  228    1    N    I    1    0   No   No
+  (XA127_FRA)            Fournisseur jamais conseillé sur l'importance d
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la précédente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA127_VS1)            Provider ever advised about importance of exclu
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+XA128                  Number of months provider advised for exclusive  229    1    N    I    1    0   No   No
+  (XA128_FRA)            Nombre de mois conseillés pour l'allaitement ma
+                               1  Entre 4 a 6 mois
+                               2  6  mois
+                               6  Autre
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA128_VS1)            Number of months provider advised for exclusive
+                               1  Between 4-6 months
+                               2  6  months
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+XA129                  Provider talked about FP                         230    1    N    I    1    0   No   No
+  (XA129_FRA)            Fournisseur parlé de planification familiale   
+                               1  Oui, seulement cette visite
+                               2  Oui, cette visite et la précédente
+                               3  Oui, visite précédente seulement
+                               4  Non
+                               8  Ne sait pas
+                           (m) 9  Manquant
+  (XA129_VS1)            Provider talked about FP                       
+                               1  Yes, this visit only
+                               2  Yes, this and previous visit
+                               3  Yes, previous visit only
+                               4  No
+                               8  Don't know
+                           (m) 9  Missing
+X201                   Time waited for provider (minutes)               231    3    N    I    1    0   No   No
+  (X201_FRA)             Temps d'attente pour le prestataire (minutes)  
+                               1:600  
+                               0      Vu prestataire immediatement
+                               998    NSP
+                           (m) 999    Manquant
+  (X201_VS1)             Time waited for provider (minutes)             
+                               1:600  
+                               0      Saw provider immediately
+                               998    Don't know
+                           (m) 999    Missing
+X202                   Problems encountered today                       234    1    N    I   11    0   No   No
+  (X202_FRA)             Problèmes rencontrée par le client aujourd'hui 
+                               1  Grand
+                               2  Mineur
+                               3  Pas de problèmes
+                               8  NSP
+                           (m) 9  Manquant
+  (X202_VS1)             Problems encountered today                     
+                               1  Major
+                               2  Minor
+                               3  No problem
+                               8  Don't know
+                           (m) 9  Missing
+X203                   Part of prepayment plan                          245    1    N    I    1    0   No   No
+  (X203_FRA)             Assurance ou plan de remboursement anticipé    
+                               1  Oui
+                               2  Non
+                               8  NSP
+                           (m) 9  Manquant
+  (X203_VS1)             Part of prepayment plan                        
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+X204                   Fees for services for visit                      246    1    N    I    1    0   No   No
+  (X204_FRA)             Honoraires pour les services de visite         
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (X204_VS1)             Fees for services for visit                    
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+X205                   Total fees (Gourdes)                             247    6    N    I    1    0   No   No
+  (X205_FRA)             Montant totale pour les services ou traitements
+                               1:999990  
+                               999998    NSP
+                           (m) 999999    Manquant
+  (X205_VS1)             Total fees (Gourdes)                           
+                               1:999990  
+                               999998    Don't know
+                           (m) 999999    Missing
+X206                   Nearest facility to home                         253    1    N    I    1    0   No   No
+  (X206_FRA)             L'établissement de santé le plus proche de chez
+                               1  Oui
+                               2  Non
+                               8  NSP
+                           (m) 9  Manquant
+  (X206_VS1)             Nearest facility to home                       
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+X207                   Main reason didn't go to nearest facility        254    2    N    I    1    0   No   No
+  (X207_FRA)             Principale raison ne vont pas à l'établissement
+                               1   Heure de fonctionnement pas commode
+                               2   Mauvaise reputation
+                               3   N'aime pas le personnel
+                               4   Pas de médicaments
+                               5   Préféré rester anonyme
+                               6   C'est plus cher
+                               7   A été referré
+                               96  Autre
+                               98  NSP
+                           (m) 99  Manquant
+  (X207_VS1)             Main reason didn't go to nearest facility      
+                               1   Inconvenient operating hours
+                               2   Bad reputation
+                               3   Don't like personnel
+                               4   No medicine
+                               5   Prefers to remain anonymous
+                               6   It is more expensive
+                               7   Was referred
+                               96  Other
+                               98  Don't know
+                           (m) 99  Missing
+X208                   Opinion of services given today                  256    1    N    I    1    0   No   No
+  (X208_FRA)             Opinion sur les services rendus aujourd'hui    
+                               1  Je suis très satisfaite des sevices reçus
+                               2  Je suis plus ou moins satisfaite des services reçus
+                               3  Je ne suis pas satisfaite des services reçus
+                           (m) 9  Manquant
+  (X208_VS1)             Opinion of services given today                
+                               1  Very satisfied
+                               2  More or less satisfied
+                               3  Not satisfied
+                           (m) 9  Missing
+X209                   Would recommend to friend/family member          257    1    N    I    1    0   No   No
+  (X209_FRA)             Pouvez recommandez à un ami/ membre de la famil
+                               1  Oui
+                               2  Non
+                               8  NSP
+                           (m) 9  Manquant
+  (X209_VS1)             Would recommend to friend/family member        
+                               1  Yes
+                               2  No
+                               8  DK
+                           (m) 9  Missing
+X301                   Relationship to child                            258    1    N    I    1    0   No   No
+  (X301_FRA)             Lien avec l'enfant                             
+                               1  Mère
+                               2  Père
+                               3  Frère/soeur
+                               4  Tante ou oncle
+                               5  Grand-mère/ grand-père
+                               6  Autre (specifier)
+                           (m) 9  Manquant
+                          (na)    Pas applicable
+  (X301_VS1)             Relationship to child                          
+                               1  Mother
+                               2  Father
+                               3  Sibling
+                               4  Aunt/Uncle
+                               5  Grand mom/ grand dad
+                               6  Other (specify)
+                           (m) 9  Missing
+                          (na)    Pas applicable
+X302                   Respondent's age                                 259    2    N    I    1    0   No   No
+  (X302_FRA)             Age de la cliente                              
+                               11:95  
+                               98     NSP
+                           (m) 99     Manquant
+  (X302_VS1)             Respondent's age                               
+                               11:95  
+                               98     Don't know
+                           (m) 99     Missing
+X303                   Ever attended school                             261    1    N    I    1    0   No   No
+  (X303_FRA)             Fréquenté l'école (formelle)                   
+                               1  Oui
+                               2  Non
+                           (m) 9  Manquant
+  (X303_VS1)             Ever attended school                           
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+X304                   Highest level attended                           262    1    N    I    1    0   No   No
+  (X304_FRA)             Le plus haut niveau scolaire atteint           
+                               1  Primaire
+                               2  Post-primaire / tecnique
+                               3  Secondaire
+                               4  Superieur / universitaire
+                           (m) 9  Manquant
+  (X304_VS1)             Highest level attended                         
+                               1  Primary
+                               2  Post-primary/ vocational
+                               3  Secondary
+                               4  College (middle level)/University
+                           (m) 9  Missing
+X305                   Literate                                         263    1    N    I    1    0   No   No
+  (X305_FRA)             Sait lire ou écrire                            
+                               1  Oui, lire seulement
+                               2  Oui, lire et ecrire
+                               3  Non
+                           (m) 9  Manquant
+  (X305_VS1)             Literate                                       
+                               1  Yes, read and write
+                               2  Yes, read only
+                               3  No
+                           (m) 9  Missing
+X306H                  End interview hour                               264    2    N    I    1    0   No   No
+  (X306H_FRA)            L'heure de la fin de l'interview               
+                               6:22  
+  (X306H_VS1)            End INTERVIew Hour                             
+                               6:22  
+X306M                  End interview minutes                            266    2    N    I    1    0   No   No
+  (X306M_FRA)            Minute de la fin de l'interview                
+                               0:59  
+  (X306M_VS1)            End INTERVIew Minutes                          
+                               0:59  
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------
